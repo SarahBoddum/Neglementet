@@ -26,6 +26,7 @@ h1{
     letter-spacing: 8%;
     font-size: 10vw;
     font-weight: lighter;
+    text-transform: uppercase;
 }
 .vertikal-h1{
   writing-mode: vertical-rl;
@@ -704,7 +705,97 @@ input{
     height:auto;
   }
 
-
-
-
 }
+
+
+/*-----------footer---------*/
+footer{
+  background-color: #FCEFF5;
+  
+}
+
+.footerlayout{
+  display: flex;
+  justify-content: center;
+  width:85%;
+  margin:auto;
+  padding-top: 50px;
+  padding-bottom:80px;
+}
+
+.footerbox{
+  width: 38%;
+  padding: 20px;
+}
+
+.lillefooterbox{
+  width:24%;
+  padding: 20px;
+}
+
+footer p{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.3vw; 
+  color: #000;
+  line-height: 165%;
+  opacity: 150%;
+}
+
+footer a{
+  color: #000;
+  text-decoration: underline;
+}
+
+#footerhand{
+  width: 24vw;
+  margin-top: 2.5vw;
+  margin-bottom: -12vw;
+}
+
+/*  LAPTOP LAYOUT*/
+@media only screen and (min-width: 820px){
+
+  .mobilfooterbox{
+      display:none;
+  }
+}
+
+/* Mobil layout*/
+@media only screen and (max-width: 820px){
+  .footerlayout{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerbox{
+    display:none;
+}
+
+.lillefooterbox{
+    display:none;
+}
+
+.mobilfooterbox{
+    width: 85%;
+}
+
+#footerhandmobil{
+  width: 40vw;
+  margin-left: 50vw;
+  
+}
+
+footer p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 3.7vw; 
+    color: #000;
+    line-height: 165%;
+    margin-bottom:40px;
+}
+
+footer a{
+    color: #000;
+    text-decoration: underline;
+}}
