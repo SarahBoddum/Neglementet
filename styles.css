@@ -28,6 +28,12 @@ h1{
     font-weight: lighter;
     text-transform: uppercase;
 }
+.vertikal-h1{
+  writing-mode: vertical-rl;
+
+  font-size: 8vw;
+  
+}
 h2{
     font-family: handwriting;
     font-size: 6vw;
@@ -35,8 +41,17 @@ h2{
     margin-top: -10vh;
     font-weight: lighter;
 }
+h3{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 2vw;
+  letter-spacing: 8%;
+}
 p{
   font-family: 'Lato', sans-serif;
+  letter-spacing: 8%;
+  font-weight: lighter;
+  line-height: 150%;
 }
 a{
   font-family: 'Lato', sans-serif;
@@ -56,6 +71,7 @@ header{
     background-color: #fcfbfa;
     position: fixed;
     top: 0;
+    z-index: 999;
 }
 #rabatdut{
     height: 22px;
@@ -172,7 +188,116 @@ header{
 #forsideh2-2{
   margin-left: 20%;
   margin-top: -5vh;
-  padding-bottom: 30vh;
+  padding-bottom: 40vh;
+}
+.firepastribe{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12vh;
+}
+.testimonial{
+  width: 17%;
+}
+.cirkeltesti{
+  width: 100%;
+  border-radius: 50%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 3vh;
+}
+.centreretP{
+  text-align: center;
+  margin-top: 2vh;
+}
+
+
+#forsideh1-3{
+  margin-left: 12%;
+  font-size: 8vw;
+}
+#forsideh2-3{
+  margin-left: 25%;
+  margin-bottom: -5vh;
+  z-index: 2;
+}
+.tiktokvideo{
+  width: 20%;
+  height: 50vh;
+  object-fit: cover;
+  z-index: 1;
+}
+
+
+#blivinspireret{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+#inspopic{
+  width: 47%;
+  height: auto;
+}
+#instasection{
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  
+}
+#instasection h1{
+  font-size: 7vw;
+}
+#instasection h2{
+  margin-top: -8.5vh;
+}
+#instasection button{
+  width: 50%;
+  height: 7vh;
+  font-size: 1.5vw;
+  font-weight: lighter;
+  margin: auto;
+}
+#forskudth1{
+  margin-left: 25%;
+  margin-bottom: -2vh;
+}
+
+
+.laesmere{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-top: 20vh;
+  margin-bottom: 40vh;
+}
+#trepics{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 100%;
+}
+.posrelcontainer{
+  position: relative;
+  width: 30%;
+  height: auto;
+}
+.laesmerepic{
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  position: absolute;
+}
+.posabsbtn{
+  width: 70%;
+  height: 6vh;
+  position: absolute;
+  z-index: 1;
+  margin-left: 15%;
+  margin-top: 65vh;
+  opacity: 80%;
+  font-size: 1.2vw;
 }
 
 /*------------Håndbogen---------*/
@@ -264,6 +389,9 @@ input{
     }
     h2{
       margin-top: -5vh;
+    }
+    h3{
+      font-size: 6.5vw;
     }
     /*------header----------------*/
 
@@ -384,9 +512,10 @@ input{
     width: 40%;
     margin-left: 30%;
     padding-top: 40px;
+    padding-bottom: -1s00px;
   }
   #forsidediv{
-    position: absolute;
+    padding-top: 50px;
     background-image: url(images/Mforside.jpg);
   }
   #forsideh1-1{
@@ -410,6 +539,109 @@ input{
     height: 6vh;
   }
 
+
+  #studierabat{
+    margin-top: 7vh;
+    background-size: 160%;
+    background-position-x: 10%;
+  }
+  #forsideh1-2{
+    font-size: 17vw;
+    margin-left: 7%;
+  }
+  #forsideh2-2{
+    font-size: 15vw;
+    margin-left: 5%;
+    padding-bottom: 35vh;
+  }
+  .firepastribe{
+    flex-direction: column;
+    width: 70%;
+  }
+  .testimonial{
+    width: 100%;
+  }
+  .cirkeltesti{
+
+    margin-bottom: 4vh;
+  }
+  .centreretP{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10vh;
+    margin-top: 3vh;
+  }
+
+  #forsideh1-3{
+    font-size: 17vw;
+    text-align: center;
+  }
+  #forsideh2-3{
+    margin-top: 0;
+    margin-bottom: 2vh;
+    font-size: 13vw;
+  }
+  .tiktokvideo{
+    width: 100%;
+    height: 65vh;
+    margin-bottom: 7vh;
+  }
+  #tiktok2,
+  #tiktok3,
+  #tiktok4{
+    display: none;
+  }
+
+  #blivinspireret{
+    width: 80%;
+    flex-direction: column-reverse;
+  }
+  #inspopic{
+    width: 100%;
+  }
+  #instasection{
+    width: 100%;
+  }
+  #instasection h1{
+    font-size: 12vw;
+  }
+  #forskudth1{
+    margin-left: 15%;
+  }
+  #instasection h2{
+    margin-top: 0;
+    margin: auto;
+    font-size: 10vw;
+  }
+  #instasection button{
+    width: 80%;
+    margin-top: 2vh;
+    margin-bottom: 7vh;
+    font-size: 6vw;
+  }
+
+
+
+  #trepics{
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    gap: 60vh;
+  }
+  .posrelcontainer{
+    width: 90%;
+    margin-left: 5%;
+  }
+  .laesmerepic{
+    height: 55vh;
+  }
+  .posabsbtn{
+    font-size: 4vw;
+    margin-top: 40vh;
+  }
+ #vertikalmobil{
+  font-size: 15vw;
+ }
 
   /*----------booking-------*/
 
