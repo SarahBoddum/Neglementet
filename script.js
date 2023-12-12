@@ -1,6 +1,7 @@
 const burgerMenu = document.getElementById('burger-menu');
 const overlay = document.getElementById('menu');
 const omList = document.getElementById("omlist");
+const haandList = document.getElementById ("haandlist");
 
 
 burgerMenu.addEventListener('click', function() {
@@ -24,15 +25,30 @@ omList.addEventListener('click', function() {
     }
   }
 
-/* duttelut til at få burgeren til at forsvinde og dukke op W3 school
+ haandList.style.display = "none"; 
 
+  haandList.addEventListener('click', function() {
+      burgerMenu.classList.remove("close");
+      overlay.classList.remove("overlay");
+    });
+    
+    function openHaandDropdown() {
+      if (haandList.style.display != "none") {
+        haandList.style.display = "none";
+      } else {
+        haandList.style.display = "block";
+      }
+    }
+
+/* duttelut til at få burgeren til at forsvinde og dukke op W3 school - virker ikke heeeelt
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
   } else {
-    document.getElementById("navbar").style.top = "-50px";
+    document.getElementById("navbar").style.top = "-140px";
   }
   prevScrollpos = currentScrollPos;
 }*/
+

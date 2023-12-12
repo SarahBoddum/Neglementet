@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css">
     <title>Neglementet | Forside</title>
@@ -12,14 +18,15 @@
 <body>
 <header>
     <div id="rabatdut">10% STUDIERABAT PÅ ALLE BEHANDLINGER</div>
-    <nav>
-       
+    <nav id="navbar">
+        <a href="index.html"><img class="mobil" id="logo" src="images/Negel-mentetglitter.png" alt="Logo Neglementet"></a>
         <div id="burger-menu">
             <span></span>
         </div>
           
-          <div id="menu">
-              <ul>
+        <div id="menu">
+
+            <ul>
                 <div  class="menu-dropdown" onclick = "openDropdown()"> 
                     <a href="#">Om Neglementet</a>
 
@@ -29,13 +36,20 @@
                         <a href="index.html#section3">Om Gele</a>
                     </div>
                 </div>
-                <a href="#">Håndbogen</a>
-                <a href="#"><img id="logo" src="images/Negel-mentetglitter.png" alt="Logo Neglementet"></a>
-                <a href="#">Priser</a>
-                <a href="#">Galleri</a>
-                <a id="booking" href="#">Booking</a>
-              </ul>
-          </div>
+                <div  class="menu-dropdown" onclick = "openHaandDropdown()"> 
+                    <a href="#">Håndbogen</a>
+
+                    <div class="dropdown-list" id="haandlist">
+                        <a href="#">Inden behandling</a>
+                        <a href="#">Efter behandling</a>
+                    </div>
+                </div>
+                <a href="index.html"><img class="laptop" id="logo" src="images/Negel-mentetglitter.png" alt="Logo Neglementet"></a>
+                <a href="priser.html">Priser</a>
+                <a href="galleri.html">Galleri</a>
+                <a id="booking" href="booking.html">Booking</a>
+            </ul>
+        </div>
 
     </nav>
 </header>
