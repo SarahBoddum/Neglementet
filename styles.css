@@ -228,7 +228,6 @@ header{
   z-index: 1;
 }
 
-
 #blivinspireret{
   width: 80%;
   margin: auto;
@@ -298,6 +297,33 @@ header{
   opacity: 80%;
   font-size: 1.2vw;
 }
+
+
+/*------------om neglementet.------------*/
+#omliva{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#omneglementet h2{
+  margin-top: 5vh;
+  font-size: 5vw;
+  margin-left:28vh;
+}
+#omneglementet h1{
+  margin-top: -8.5vh;
+  margin-left: 2vh;
+  font-size: 5vw;
+}
+
+#livabillede img{
+  margin-left:10vh;
+  width:95%;
+  height:auto;
+
+}
+
 
 /*------------booking.------------*/
 
@@ -644,4 +670,41 @@ input{
     height: auto;
     margin-left: 0;
   }
+
+  #omliva{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+   /*----------om neglementet-------*/
+   #omliva{
+    width: 100%;
+    display: flex;
+    
+  }
+  
+   #omneglementet h2{
+    margin-top: 5vh;
+    font-size: 5vw;
+    margin-left:14vh;
+    width:80%;
+  }
+
+  #omneglementet h1{
+    margin-top: -3.5vh;
+    margin-left: 2vh;
+    font-size: 5vw;
+    
+  }
+
+  #livabillede img{
+    margin-left:10vh;
+    width:100%;
+    height:auto;
+  }
+
+
+
+
 }

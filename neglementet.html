@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Neglementet | Booking</title>
+    <script src="https://kit.fontawesome.com/6978fc69bd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="rabatdut">10% STUDIERABAT PÅ ALLE BEHANDLINGER</div>
+    <nav id="navbar">
+        <div id="burger-menu">
+            <span></span>
+        </div>
+          
+        <div id="menu">
+
+            <ul>
+                <div  class="menu-dropdown" onclick = "openDropdown()"> 
+                    <a href="#">Om Neglementet</a>
+
+                    <div class="dropdown-list" id="omlist">
+                        <a href="#">Om Neglementet</a>
+                        <a href="#">Om Shellac®</a>
+                        <a href="#">Om Gele</a>
+                    </div>
+                </div>
+                <div  class="menu-dropdown" onclick = "openHaandDropdown()"> 
+                    <a href="#">Håndbogen</a>
+
+                    <div class="dropdown-list" id="haandlist">
+                        <a href="#">Inden behandling</a>
+                        <a href="#">Efter behandling</a>
+                    </div>
+                </div>
+                <a href="index.html"><img id="logo" src="images/Negel-mentetglitter.png" alt="Logo Neglementet"></a>
+                <a href="priser.html">Priser</a>
+                <a href="galleri.html">Galleri</a>
+                <a id="booking" href="booking.html">Booking</a>
+            </ul>
+        </div>
+
+    </nav>
+</header>
+<main>
+    <img class="mobil" id="mobillogo" src="images/Negel-mentetglitter.png" alt="Logo Neglementet">
+
+    <div id="omliva">
+        <section id="omneglementet">
+            <h2> kvinden bag</h2>
+            <h1>NEGLEMNETET</h1>
+        </section>
+
+        <section id="livabillede">
+            <img class="laptop" id="Liva" src="images/LtestamonialAnna.jpg" alt="annabanana">
+            <img class="mobil" id="Liva" src="images/Mhænder.jpg" alt="annabanana">
+        </section>
+        
+    </div>
+</main>
+</body>
+</html>
