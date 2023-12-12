@@ -310,19 +310,18 @@ header{
 #omneglementet h2{
   margin-top: 5vh;
   font-size: 5vw;
-  margin-left:28vh;
+  margin-left:33vh;
 }
 #omneglementet h1{
-  margin-top: -8.5vh;
-  margin-left: 2vh;
+  margin-top: -7.5vh;
+  margin-left: 5vh;
   font-size: 5vw;
 }
 
 #livabillede img{
   margin-left:10vh;
-  width:95%;
+  width:92%;
   height:auto;
-
 }
 
 /*----------håndbogen laptop----------*/
@@ -838,6 +837,7 @@ input{
     margin-left:0;
     margin-right:0;
   }
+
 
 }
 
