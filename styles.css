@@ -229,7 +229,6 @@ header{
   z-index: 1;
 }
 
-
 #blivinspireret{
   width: 80%;
   margin: auto;
@@ -300,30 +299,32 @@ header{
   font-size: 1.2vw;
 }
 
-/*------------Håndbogen---------*/
-#stortbillede{
+
+/*------------om neglementet.------------*/
+#omliva{
   width: 100%;
-  height: max-content;
-  background-image: url(images/Lforside.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-bottom: 15vw;
-  padding-top: 15vw;
+  display: flex;
+  justify-content: space-between;
 }
 
-#h2over{
-  margin-top: 10vw;
-  text-align: center;
-  margin-left: 15vw;
-  margin-bottom: -5vw;
-  color: #fff;
+#omneglementet h2{
+  margin-top: 5vh;
+  font-size: 5vw;
+  margin-left:28vh;
+}
+#omneglementet h1{
+  margin-top: -8.5vh;
+  margin-left: 2vh;
+  font-size: 5vw;
 }
 
-#h1under{
-  text-align: center;
-  font-size: 8vw;
-  color: #fff;
+#livabillede img{
+  margin-left:10vh;
+  width:95%;
+  height:auto;
+
 }
+
 
 /*------------booking.------------*/
 
@@ -670,7 +671,32 @@ input{
     height: auto;
     margin-left: 0;
   }
+
+   /*----------om neglementet-------*/
+   #omliva{
+    flex-direction: column;
+    align-items: center;
+    width: 95%; 
+  }
+  
+   #omneglementet h2{
+    margin-top: 5vh;
+    font-size: 8vw;
+  }
+
+  #omneglementet h1{
+    margin-top: -17vh;
+    font-size: 10vw;
+  }
+
+  #livabillede img{
+    margin-top:8vh;
+    width:85%;
+    height:auto;
+  }
+
 }
+
 
 /*-----------footer---------*/
 footer{
