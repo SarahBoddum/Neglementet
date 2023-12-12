@@ -2,11 +2,13 @@ const burgerMenu = document.getElementById('burger-menu');
 const overlay = document.getElementById('menu');
 const omList = document.getElementById("omlist");
 const haandList = document.getElementById ("haandlist");
+const bodyElement = document.body;
 
 
 burgerMenu.addEventListener('click', function() {
   this.classList.toggle("close");
   overlay.classList.toggle("overlay");
+  document.body.classList.toggle("bodyoverlay");
 });
 
 
@@ -15,6 +17,7 @@ omList.style.display = "none";
 omList.addEventListener('click', function() {
     burgerMenu.classList.remove("close");
     overlay.classList.remove("overlay");
+    document.body.classList.toggle("bodyoverlay");
   });
   
   function openDropdown() {

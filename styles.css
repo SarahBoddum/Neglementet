@@ -17,6 +17,10 @@ body{
     font-family: sans-serif;
     background-color: #fcfbfa;
   }
+  body.bodyoverlay {
+    overflow: hidden;
+   
+  }
 h1{
     font-family:'Abril Fatface', serif;
     letter-spacing: 8%;
@@ -40,7 +44,7 @@ a{
 button{
   font-family: 'Lato', sans-serif;
   background-color: #fce4f1;
-  opacity: 80%;
+  
   padding: 1% 3%;
   border: solid black 1px;
 }
@@ -114,11 +118,61 @@ header{
     margin-top: 10px;
 }
 /*---------index---------------*/
-img{
-    width: 100%;
-    height: auto;
+#forsidediv{
+  width: 100%;
+  height: auto;
+  background-image: url(images/Lforside.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 20vh;
 }
-
+#forsideh1-1{
+  margin-top: 200px;
+  text-align: center;
+  font-size: 7vw;
+}
+#forsideh2-1{
+  font-size: 4vw;
+  text-align: center;
+  margin-top: -5vh;
+}
+#forsidebtndiv{
+  width: 40%;
+  margin-left: 27%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70vh;
+}
+.forsidebtn{
+  width: 200%;
+  height: 5vh;
+  font-size: 1.4vw;
+  font-weight: lighter;
+}
+.forsidebtn:hover{
+  background-color: #faf1f6;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+#studierabat{
+  width: 100%;
+  height: auto;
+  background-image: url(images/PSaNeglecutout.png);
+  background-size: 70%;
+  background-position: right;
+  margin-top: 30vh;
+  background-repeat: no-repeat;
+  margin-bottom: 20vh;
+}
+#forsideh1-2{
+  font-size: 10vw;
+  margin-left: 10%;
+}
+#forsideh2-2{
+  margin-left: 20%;
+  margin-top: -5vh;
+  padding-bottom: 30vh;
+}
 
 /*------------booking.------------*/
 
@@ -197,8 +251,7 @@ input{
     #logo{
         margin: 30px;
         width: 15%;
-        position: fixed;
-        top: 0;
+        overflow: visible;
     }
   #burger-menu {
     cursor: pointer;
@@ -262,10 +315,9 @@ input{
   #menu {
     z-index: 1;
     min-width: 100%;
-    min-height: 100%;
+    min-height: 100vh;
     position: fixed;
     top: 0;
-    height: 0;
     visibility: hidden;
     opacity: 0;
     text-align: center;
@@ -277,7 +329,7 @@ input{
     opacity: 1;
     padding-top: 100px;
     margin-top: 25px;
-    background: rgba(243, 204, 204, 0.85);
+    background-color: #fce4f1;
   }
   #menu ul {
     padding: 0;
@@ -291,12 +343,47 @@ input{
   #menu a{
     font-size: 3vw;
     margin: 10px 0;
+    display: block;
+    margin-bottom: 30px;
+    z-index: 5;
   }
   .dropdown-list{
     background-color: transparent;
     padding-top: 0px;
     position: relative;
+    z-index: 5;
   }
+  /*---------index------------*/
+  #mobillogo{
+    width: 40%;
+    margin-left: 30%;
+    padding-top: 40px;
+  }
+  #forsidediv{
+    position: absolute;
+    background-image: url(images/Mforside.jpg);
+  }
+  #forsideh1-1{
+    font-size: 10vw;
+    margin-top: 50px;
+  }
+  #forsideh2-1{
+    font-size: 8vw;
+    margin-top: -2vh;
+  }
+  #forsidebtndiv{
+    flex-direction: column;
+    margin-top: 20vh;
+    width: 15%;
+    margin-left: 35%;
+    justify-self: unset;
+  }
+  .forsidebtn{
+    margin-bottom: 3vh;
+    font-size: 3vw;
+    height: 6vh;
+  }
+
 
   /*----------booking-------*/
 
@@ -307,6 +394,7 @@ input{
   }
   #bookingtext{
     width: 100%;
+    z-index: 0;
   }
   #bookh1{
     text-align: center;
