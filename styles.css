@@ -52,6 +52,7 @@ p{
   letter-spacing: 8%;
   font-weight: lighter;
   line-height: 150%;
+  font-size: 1.3vw;
 }
 a{
   font-family: 'Lato', sans-serif;
@@ -305,7 +306,11 @@ header{
 #omliva{
   width: 100%;
   display: flex;
-  justify-content: space-between;
+}
+
+#omneglementet{
+  padding-left:9%;
+  width: 40%;
 }
 
 #omneglementet h2{
@@ -313,17 +318,47 @@ header{
   font-size: 5vw;
   margin-left:33vh;
 }
+
 #omneglementet h1{
-  margin-top: -7.5vh;
-  margin-left: 5vh;
+  margin-top: -7vh;
+  margin-bottom: 2vh;
   font-size: 5vw;
 }
 
 #livabillede img{
-  margin-left:10vh;
-  width:92%;
-  height:auto;
+  margin-left:15%;
+  width:85%;
+  height: 100%;
+  object-fit: cover;
 }
+
+/*- Shellac -*/
+
+#shellac{
+  width: 95%;
+  margin-right: 5%;
+  display: flex;
+  background-image: url(images/CNDshellac.png);
+  background-size: 59%;
+  background-position-x: 0%;
+  background-position-y: 10vh;
+  background-repeat: no-repeat;
+}
+
+#omshellac p{
+  padding-left:11%;
+}
+
+#omshellac{
+  width: 60%;
+  margin-left: 35%;
+  
+}
+
+#omshellac h2{
+  margin-top: 5vh;
+}
+
 
 /*----------håndbogen laptop----------*/
 
