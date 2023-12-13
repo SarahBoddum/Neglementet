@@ -57,24 +57,34 @@
         <div id="bookingtext">
             <h1 id="bookh1">BOOK</h1>
             <h2 id="bookh2">din tid her</h2>
-            <form>
+            <form action="">
                 <label for="navn">Navn</label>
                 <input id="navn" type="text" placeholder="Leah Jensen">
                 
                 <label for="email">Email</label>
                 <input id="email" type="text" placeholder="leahjensen@gmail.com">
-    
-                <label for="behandling" class="bookinglabel">Behandling</label>
-                <input id="behandling" type="behandling" class="rullebox" placeholder="Behandlingtyper">
-    
+                
+                <label for="behandling">Behandling</label>
+                <input id="behandling" for="behandling" list="behandlingstype" placeholder="Vælg behandling">
+                    <datalist id="behandlingstype">
+                        <option value="med aftagning"></option>
+                        <option value="uden aftagning"></option>
+                    </datalist>
+        
                 <label for="aftagning">Aftagning</label>
-                <input id="aftagning" for="aftagning" class="rullebox" placeholder="Vælg aftagning">
+                <input id="aftagning" for="aftagning" list="ja-nej" placeholder="Vælg aftagning">
+                    <datalist id="ja-nej">
+                        <option value="med aftagning"></option>
+                        <option value="uden aftagning"></option>
+                    </datalist>
     
                 <label for="tid">Tid</label>
                 <input  id="tid" for="tid" class="rullebox" placeholder="Ledige tider">
     
                 <div id="bookbtn">Bestil tid</div>
             </form>
+
+ 
         </div>
         <img class="laptop" id="bookpic" src="images/Lbalonnegl.jpg">
         <img class="mobil" id="bookpic" src="images/Mbalonnegl.jpg">
