@@ -59,7 +59,7 @@ p{
   letter-spacing: 8%;
   font-weight: lighter;
   line-height: 150%;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
 }
 a{
   font-family: 'Lato', sans-serif;
@@ -479,6 +479,7 @@ header{
   width:48%;
   height: auto;
   padding-right:1vw;
+  display:flex;
 }
 
 .lillekolonne{
