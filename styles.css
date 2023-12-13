@@ -1026,15 +1026,13 @@ footer a{
   margin-top: 4%;
 }
 
-.storImg {
+.fullsize {
   z-index: 999;
   cursor: zoom-out;
   display: block;
-  width: 900px;
-  height: 900px;
+  width: 650px;
+  height: 650px;
   position: fixed;
-  left: 10%;
-  top: 10%;
 }
 
 .galleriMobil {

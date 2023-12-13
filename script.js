@@ -85,5 +85,5 @@ var currentScrollPos = window.pageYOffset;
 /*------galleri------*/
 
 function change (element) {
-  element.classList.toggle(storImg)
+  element.classList.toggle("fullsize")
 }
