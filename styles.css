@@ -964,10 +964,10 @@ footer a{
   align-items: center;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 4%;
+  margin-bottom: 3%;
 }
 
 .galleri img {
-  width: 400px;
-  height: 400px;
+  width: 30%;
+  height: 30%;
 }
