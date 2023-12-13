@@ -59,7 +59,7 @@ p{
   letter-spacing: 8%;
   font-weight: lighter;
   line-height: 150%;
-  font-size: 1.2vw;
+  font-size: 1.3vw;
 }
 a{
   font-family: 'Lato', sans-serif;
@@ -75,7 +75,7 @@ button{
 /*--------header-----------------*/
 header{
     width: 100%;
-    height: 17vh;
+    height: 190px;
     background-color: #fcfbfa;
     position: fixed;
     top: 0;
@@ -479,8 +479,6 @@ header{
   width:48%;
   height: auto;
   padding-right:1vw;
-  display: flex;
-  margin:auto;
 }
 
 .lillekolonne{
@@ -524,22 +522,9 @@ header{
     margin-top: -10vw;
   }
 
-  #handbogh2-1{
-    font-size: 13vw;
-    margin-left: -2vw;
-    padding-top: 4vw;
-  }
-
-  #billedestr1{
-    width: 80%;
-    margin-left: -9vw;
-    margin-bottom: 10vw;
-  }
-
   .fit{
     width: 90%;
     margin:auto;
-    margin-bottom: 10vw;
 }
 
 .kolonner{
@@ -573,37 +558,6 @@ header{
   width:100%;
   margin:auto;
 }
-}
-
-/*-------priser--------------------*/
-#priserdivtop{
-  width: 100%;
-  height: 90vh;
-  margin-top: 20vh;
-  background-image: url(images/PSaNeglecutoutFLIP.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-#overskriftPriser{
-  width: 45%;
-  margin-left: 50%;
-}
-#overskriftPriser h1{
-  font-size: 7vw;
-  padding-top: 5vh;
-  margin-left: 20%;
-}
-#overskriftPriser h2{
-  margin-top: -7vh;
-}
-#overskriftPriser p{
-  margin-left: 10%;
-}
-
-#centreretH1{
-  text-align: center;
-  font-size: 6vw;
-  margin-top: 6vh;
 }
 /*------------booking.------------*/
 
@@ -679,8 +633,8 @@ input{
       font-size: 6.5vw;
     }
 
-    p{
-      font-size: 5vw;
+    p {
+      font-size:3vw;
     }
     /*------header----------------*/
 
@@ -964,28 +918,99 @@ input{
 
    /*----------om neglementet-------*/
    #omliva{
-    flex-direction: column;
-    align-items: center;
-    width: 100%; 
+   width:100%;
+   display:flex;
+   margin-left:0%;
   }
   
+  #omneglementet{
+    padding-left:0%;
+    background-image: none;
+    width:100%;
+  }
+
    #omneglementet h2{
-    margin-top: 5vh;
-    font-size: 8vw;
+   margin-left:50%;
+   margin-top: -7vh;
+   font-size:10vw;
   }
 
   #omneglementet h1{
-    margin-top: -19vh;
-    font-size: 10vw;
+  font-size:12vw;
+  margin-top:10vh;
+  text-align: center;
   }
 
-  #livabillede img{
-    margin-top:10vh;
-    width:100%;
-    height:auto;
-    margin-left:0;
-    margin-right:0;
+  #omneglementet p{
+    padding:5%;
   }
+
+  #livamobil{
+   width:100%;
+   height:80vh;
+   object-fit: cover;
+  }
+
+/*--shellac--*/
+
+#shellac{
+  width: 95%;
+  margin-right: 5%;
+  display: flex;
+  background-image:none;
+}
+
+#omshellac p{
+  padding-left:13%;
+  width: 70%;
+}
+
+#omshellac{
+  width: 90%;
+  margin-left:5%;
+}
+
+#omshellac h2{
+  margin-top: 5vh;
+  margin-bottom:3%;
+  padding-left:25%;
+  font-size:9vw;
+}
+
+/*--brisa gel--*/
+
+#brisagel{
+  width: 90%;
+  margin-right: 5%;
+  display: flex;
+  background-image:none;
+}
+
+#ombrisagel{
+  width: 100%;
+  margin-left:0%;
+  background-image:none;
+}
+
+#ombrisagel p{
+  padding-left:13%;
+  width: 70%;
+}
+
+#ombrisagel h2{
+  margin-top: 5vh;
+  margin-bottom:3%;
+  padding-left: 4%;
+  font-size:9vw;
+  text-align: left;
+}
+
+#livamobil2{
+  width:100%;
+  height:80vh;
+  background-image: url(images/BrisaGel.png);
+  background-size: 140%;
+}
 
 
 }
