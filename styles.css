@@ -368,6 +368,19 @@ header{
   margin-top: -6vw;
 }
 
+#handbogh2-1{
+  font-size: 5.7vw;
+  margin-top: 2vw;
+  z-index:2;
+  margin-left: 5vw;
+}
+
+#billedestr1{
+  width: 65%;
+  height: auto;
+  margin-left: -3vw;
+}
+
 .fit{
   width:90%;
   margin: auto;
@@ -395,6 +408,8 @@ header{
   width:48%;
   height: auto;
   padding-right:1vw;
+  display: flex;
+  margin:auto;
 }
 
 .lillekolonne{
@@ -438,9 +453,22 @@ header{
     margin-top: -10vw;
   }
 
+  #handbogh2-1{
+    font-size: 13vw;
+    margin-left: -2vw;
+    padding-top: 4vw;
+  }
+
+  #billedestr1{
+    width: 80%;
+    margin-left: -9vw;
+    margin-bottom: 10vw;
+  }
+
   .fit{
     width: 90%;
     margin:auto;
+    margin-bottom: 10vw;
 }
 
 .kolonner{
