@@ -348,22 +348,47 @@ header{
   background-image: url(images/CNDshellac.png);
   background-size: 59%;
   background-position-x: 0%;
-  background-position-y: 10vh;
+  background-position-y: 8vh;
   background-repeat: no-repeat;
 }
 
 #omshellac p{
-  padding-left:11%;
+  padding-left:15%;
 }
 
 #omshellac{
   width: 60%;
   margin-left: 35%;
-  
+
 }
 
 #omshellac h2{
   margin-top: 5vh;
+}
+
+/*- brisa gel -*/
+
+#brisagel{
+  width: 95%;
+  margin-left: 5%;
+  display: flex;
+  background-image: url(images/BrisaGel.png);
+  background-size: 59%;
+  background-position-x: 140%;
+  background-position-y:5vh;
+  background-repeat: no-repeat;
+}
+
+#ombrisagel p{
+  padding-left:10%;
+}
+
+#ombrisagel{
+  width: 60%;
+}
+
+#ombrisagel h2{
+  margin-top: 15vh;
 }
 
 
