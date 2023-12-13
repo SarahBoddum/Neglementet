@@ -83,3 +83,7 @@ var currentScrollPos = window.pageYOffset;
 }*/
 
 /*------galleri------*/
+
+function change (element) {
+  element.classList.toggle("fullsize")
+}
