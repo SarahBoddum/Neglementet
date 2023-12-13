@@ -59,7 +59,7 @@ p{
   letter-spacing: 8%;
   font-weight: lighter;
   line-height: 150%;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
 }
 a{
   font-family: 'Lato', sans-serif;
@@ -677,6 +677,10 @@ input{
     }
     h3{
       font-size: 6.5vw;
+    }
+
+    p{
+      font-size: 5vw;
     }
     /*------header----------------*/
 
