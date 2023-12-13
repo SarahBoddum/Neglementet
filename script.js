@@ -82,3 +82,4 @@ var currentScrollPos = window.pageYOffset;
   prevScrollpos = currentScrollPos;
 }*/
 
+/*------galleri------*/
