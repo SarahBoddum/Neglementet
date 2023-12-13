@@ -433,6 +433,12 @@ header{
   font-size: 9vw;
 }
 
+#handbogh1-1{
+  font-size: 7vw;
+  margin-left: 15vw;
+  
+}
+
 #handbogh2{
   font-size: 5vw;
   margin-left: 5vw;
@@ -446,10 +452,31 @@ header{
   margin-left: 4vw;
 }
 
+#handbogh2-2{
+  font-size: 5vw;
+  margin-top: -6vw;
+  margin-left: 40vw;
+  margin-bottom: -8vw;
+}
+
+.handbogencenter{
+  text-align:center;
+}
+
 #billedestr1{
   width: 70%;
   height: auto;
   margin-left: -3vw;
+}
+
+#billedestr2{
+  width:90%;
+  margin-top: -3vw;
+}
+
+#aftagning{
+  padding-right: 3vw;
+
 }
 
 .fit{
@@ -458,7 +485,7 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom:40px;
+  margin-bottom:7vw;
 }
 
 .kolonner{
@@ -516,16 +543,46 @@ header{
   #handbogh1{
     font-size: 17vw;
   }
+
+  #handbogh1-1{
+    font-size:15vw;
+    margin-left: 8vw;
+    margin-top: 10vw;
+  }
   
   #handbogh2{
-    font-size: 12vw;
-    margin-left: 20vw;
+    font-size: 13vw;
+    margin-left: 15vw;
     margin-top: -10vw;
+  }
+
+  #handbogh2-1{
+    font-size: 15vw;
+    margin-top: 5vw;
+    margin-left: -3vw;
+  }
+
+  #handbogh2-2{
+    font-size: 9vw;
+    margin-top: -8vw;
+    margin-left: 14vw;
+    margin-bottom: -8vw;
+  }
+
+  #billedestr1{
+    width: 82%;
+    margin-left: -10vw;
+    margin-bottom: 10vw;
   }
 
   .fit{
     width: 90%;
     margin:auto;
+}
+
+#aftagning{
+  width: 85%;
+  margin:auto;
 }
 
 .kolonner{
@@ -560,6 +617,7 @@ header{
   margin:auto;
 }
 }
+
 /*------------booking.------------*/
 
 #bookingdiv{
@@ -635,7 +693,7 @@ input{
     }
 
     p {
-      font-size:3vw;
+      font-size:4.5vw;
     }
     /*------header----------------*/
 
