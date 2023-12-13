@@ -59,7 +59,7 @@ p{
   letter-spacing: 8%;
   font-weight: lighter;
   line-height: 150%;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
 }
 a{
   font-family: 'Lato', sans-serif;
@@ -75,7 +75,7 @@ button{
 /*--------header-----------------*/
 header{
     width: 100%;
-    height: 17vh;
+    height: 190px;
     background-color: #fcfbfa;
     position: fixed;
     top: 0;
@@ -433,10 +433,50 @@ header{
   font-size: 9vw;
 }
 
+#handbogh1-1{
+  font-size: 7vw;
+  margin-left: 15vw;
+  
+}
+
 #handbogh2{
   font-size: 5vw;
   margin-left: 5vw;
   margin-top: -6vw;
+}
+
+#handbogh2-1{
+  font-size: 6vw;
+  margin-top: 2vw;
+  z-index:2;
+  margin-left: 4vw;
+}
+
+#handbogh2-2{
+  font-size: 5vw;
+  margin-top: -6vw;
+  margin-left: 40vw;
+  margin-bottom: -8vw;
+}
+
+.handbogencenter{
+  text-align:center;
+}
+
+#billedestr1{
+  width: 70%;
+  height: auto;
+  margin-left: -3vw;
+}
+
+#billedestr2{
+  width:90%;
+  margin-top: -3vw;
+}
+
+#aftagning{
+  padding-right: 3vw;
+
 }
 
 .fit{
@@ -445,7 +485,7 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom:40px;
+  margin-bottom:7vw;
 }
 
 .kolonner{
@@ -466,6 +506,7 @@ header{
   width:48%;
   height: auto;
   padding-right:1vw;
+  display:flex;
 }
 
 .lillekolonne{
@@ -502,16 +543,46 @@ header{
   #handbogh1{
     font-size: 17vw;
   }
+
+  #handbogh1-1{
+    font-size:15vw;
+    margin-left: 8vw;
+    margin-top: 10vw;
+  }
   
   #handbogh2{
-    font-size: 12vw;
-    margin-left: 20vw;
+    font-size: 13vw;
+    margin-left: 15vw;
     margin-top: -10vw;
+  }
+
+  #handbogh2-1{
+    font-size: 15vw;
+    margin-top: 5vw;
+    margin-left: -3vw;
+  }
+
+  #handbogh2-2{
+    font-size: 9vw;
+    margin-top: -8vw;
+    margin-left: 14vw;
+    margin-bottom: -8vw;
+  }
+
+  #billedestr1{
+    width: 82%;
+    margin-left: -10vw;
+    margin-bottom: 10vw;
   }
 
   .fit{
     width: 90%;
     margin:auto;
+}
+
+#aftagning{
+  width: 85%;
+  margin:auto;
 }
 
 .kolonner{
@@ -712,7 +783,10 @@ input{
     h3{
       font-size: 6.5vw;
     }
-  
+
+    p {
+      font-size:4.5vw;
+    }
     /*------header----------------*/
 
     header{
@@ -1060,28 +1134,99 @@ input{
  
    /*----------om neglementet-------*/
    #omliva{
-    flex-direction: column;
-    align-items: center;
-    width: 100%; 
+   width:100%;
+   display:flex;
+   margin-left:0%;
   }
   
+  #omneglementet{
+    padding-left:0%;
+    background-image: none;
+    width:100%;
+  }
+
    #omneglementet h2{
-    margin-top: 5vh;
-    font-size: 8vw;
+   margin-left:50%;
+   margin-top: -7vh;
+   font-size:10vw;
   }
 
   #omneglementet h1{
-    margin-top: -19vh;
-    font-size: 10vw;
+  font-size:12vw;
+  margin-top:10vh;
+  text-align: center;
   }
 
-  #livabillede img{
-    margin-top:10vh;
-    width:100%;
-    height:auto;
-    margin-left:0;
-    margin-right:0;
+  #omneglementet p{
+    padding:5%;
   }
+
+  #livamobil{
+   width:100%;
+   height:80vh;
+   object-fit: cover;
+  }
+
+/*--shellac--*/
+
+#shellac{
+  width: 95%;
+  margin-right: 5%;
+  display: flex;
+  background-image:none;
+}
+
+#omshellac p{
+  padding-left:13%;
+  width: 70%;
+}
+
+#omshellac{
+  width: 90%;
+  margin-left:5%;
+}
+
+#omshellac h2{
+  margin-top: 5vh;
+  margin-bottom:3%;
+  padding-left:25%;
+  font-size:9vw;
+}
+
+/*--brisa gel--*/
+
+#brisagel{
+  width: 90%;
+  margin-right: 5%;
+  display: flex;
+  background-image:none;
+}
+
+#ombrisagel{
+  width: 100%;
+  margin-left:0%;
+  background-image:none;
+}
+
+#ombrisagel p{
+  padding-left:13%;
+  width: 70%;
+}
+
+#ombrisagel h2{
+  margin-top: 5vh;
+  margin-bottom:3%;
+  padding-left: 4%;
+  font-size:9vw;
+  text-align: left;
+}
+
+#livamobil2{
+  width:100%;
+  height:80vh;
+  background-image: url(images/BrisaGel.png);
+  background-size: 140%;
+}
 
 
 }
@@ -1129,14 +1274,23 @@ footer p{
 }
 
 footer a{
-  color: #000;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 #footerhand{
   width: 24vw;
   margin-top: 2.5vw;
   margin-bottom: -12vw;
+}
+
+#someboks{
+  width: 80%;
+  text-align: left;
+  margin-top: 2vw;
+}
+.someikon{
+  width: 20%;
+  margin-right: 2vw;
 }
 
 /*  LAPTOP LAYOUT*/
@@ -1181,9 +1335,9 @@ footer p{
 }
 
 footer a{
-    color: #000;
-    text-decoration: underline;
-}}
+    text-decoration: none;
+}
+}
 
 
 
