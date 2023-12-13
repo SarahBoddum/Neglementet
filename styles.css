@@ -440,14 +440,14 @@ header{
 }
 
 #handbogh2-1{
-  font-size: 5.7vw;
+  font-size: 6vw;
   margin-top: 2vw;
   z-index:2;
-  margin-left: 5vw;
+  margin-left: 4vw;
 }
 
 #billedestr1{
-  width: 65%;
+  width: 70%;
   height: auto;
   margin-left: -3vw;
 }
@@ -1033,14 +1033,23 @@ footer p{
 }
 
 footer a{
-  color: #000;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 #footerhand{
   width: 24vw;
   margin-top: 2.5vw;
   margin-bottom: -12vw;
+}
+
+#someboks{
+  width: 80%;
+  text-align: left;
+  margin-top: 2vw;
+}
+.someikon{
+  width: 20%;
+  margin-right: 2vw;
 }
 
 /*  LAPTOP LAYOUT*/
@@ -1085,9 +1094,9 @@ footer p{
 }
 
 footer a{
-    color: #000;
-    text-decoration: underline;
-}}
+    text-decoration: none;
+}
+}
 
 
 
