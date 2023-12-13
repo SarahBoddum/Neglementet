@@ -318,6 +318,12 @@ header{
 #omneglementet{
   padding-left:9%;
   width: 40%;
+  background-image: url(images/swatch.jpg);
+  background-size: 85% 63%;
+  background-repeat: no-repeat;
+  background-position-x:50%;
+  background-position-y: 10vh;
+
 }
 
 #omneglementet h2{
@@ -359,7 +365,6 @@ header{
 #omshellac{
   width: 60%;
   margin-left: 35%;
-
 }
 
 #omshellac h2{
@@ -379,12 +384,18 @@ header{
   background-repeat: no-repeat;
 }
 
-#ombrisagel p{
-  padding-left:10%;
-}
-
 #ombrisagel{
   width: 60%;
+  background-image: url(images/swatch.jpg);
+  background-size: 65% 34%;
+  background-repeat: no-repeat;
+  background-position-x:10%;
+  background-position-y: 45vh;
+}
+
+#ombrisagel p{
+  padding-left:10%;
+  padding-bottom: 40%;
 }
 
 #ombrisagel h2{
