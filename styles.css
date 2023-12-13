@@ -958,6 +958,7 @@ footer a{
   margin-bottom: 5%;
 }
 
+
 .galleri {
   display: flex;
   justify-content: space-around;
@@ -977,4 +978,30 @@ footer a{
   margin-top: 4%;
 }
 
+.galleriMobil {
+  display: none;
+}
+
+@media only screen and (max-width: 992px){
+
+.galleri {
+  display: none;
+}
+
+.galleriMobil {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.galleriMobil img {
+  width: 80%;
+  height: 80%;
+
+  margin-top: 5%;
+}
+
+
+}
 
