@@ -394,10 +394,10 @@ header{
 #ombrisagel{
   width: 60%;
   background-image: url(images/swatch.jpg);
-  background-size: 60% 35%;
+  background-size: 62% 35%;
   background-repeat: no-repeat;
   background-position-x:10%;
-  background-position-y: 44vh;
+  background-position-y: 46vh;
 }
 
 #ombrisagel p{
@@ -425,7 +425,7 @@ header{
 
 #ombetingelser h1{
   margin-bottom: 2vh;
-  font-size: 5vw;
+  font-size: 3.3vw;
 }
 
 #ombetingelser p {
