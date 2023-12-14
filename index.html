@@ -99,6 +99,7 @@
         </div>
     </div>
 
+    s
 
 
     <h1 id="forsideh1-3">TIKTOK</h1>
@@ -106,23 +107,31 @@
 
 
 <!--tiktok-->
+
+        <!--
+          <video muted playsinline onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" poster="image.jpg">
+<source src="video.mp4" type="video/mp4"></source>
+</video>
+        -->
+
     <div class="firepastribe">
-        <video class="tiktokvideo" id="tiktok1" loop>
+
+        <video class="tiktokvideo" id="tiktok1" muted playsinline onmouseover="playVideo()" onmouseout="pauseVideo()">
+            <source src="video/introlavkval.mp4" type="video/mp4"></source>
+            <p>Your user agent does not support the HTML5 Video element.</p>
+        </video>
+
+        <video class="tiktokvideo" id="tiktok2" type="video/mp4" muted loop>
             <source src="video/introlavkval.mp4">
             <p>Your user agent does not support the HTML5 Video element.</p>
         </video>
 
-        <video class="tiktokvideo" id="tiktok2" loop>
+        <video class="tiktokvideo" id="tiktok3" type="video/mp4" muted loop>
             <source src="video/introlavkval.mp4">
             <p>Your user agent does not support the HTML5 Video element.</p>
         </video>
 
-        <video class="tiktokvideo" id="tiktok3" loop>
-            <source src="video/introlavkval.mp4">
-            <p>Your user agent does not support the HTML5 Video element.</p>
-        </video>
-
-        <video class="tiktokvideo" id="tiktok4" loop>
+        <video class="tiktokvideo" id="tiktok4" type="video/mp4" muted loop>
             <source src="video/introlavkval.mp4">
             <p>Your user agent does not support the HTML5 Video element.</p>
         </video>

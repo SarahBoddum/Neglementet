@@ -64,12 +64,22 @@ function gemBooking() {
     },
 })
    .then(response => response.json())
-   .then(response => console.log(JSON.stringify(response)))
+   .then(response => console.log(JSON.stringify(response)) )
    
     window.location.href = 'kvittering.html';
 }
 
+//play video on mouse over
+function playVideo() {
+    var video = document.getElementById("tiktok1");
+    video.play();
+}
 
+function pauseVideo() {
+    var video = document.getElementById("tiktok1");
+    video.pause();
+    video.currentTime = 0;
+}
 
 
 /* duttelut til at få burgeren til at forsvinde og dukke op W3 school - virker ikke heeeelt
@@ -90,31 +100,3 @@ function change (element) {
   element.classList.toggle("fullsize")
 }
 
-/* Hover over tiktok videoer*/
-
-
-
-/*Den den ene jeg prøvede*/
-
-
-
-/*document.querySelector(".tiktokvideo").addEventListener("mouseover",function(){
-  this.play()
-})
-
-document.querySelector(".tiktokvideo").addEventListener("mouseleave",function(){
-  this.play()
-}) */
-
-
-/*den anden jeg prøvede*/
-
-
-/*let video = document.querySelectorAll("tiktokvideo");
-
-for(var i =0;i< video.length;i++)
-{
-  video[i].addEventListener("mouseover", function(){
-    this.play();
-  })
-}*/
