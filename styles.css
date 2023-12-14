@@ -651,10 +651,14 @@ display: none;
   margin-left: 1vw;
 }
 
+#farvebeskrivelse{
+  margin:auto;
+}
+
 .neglefarve{
   width: 7vw;
-  margin-left: -4vw;
-  margin-right: -4vw;
+  margin-left: -1vw;
+  margin-right: -1vw;
 }
 
 .neglefarve1{
@@ -796,6 +800,19 @@ display: none;
   text-align: left;
   margin:auto;
   margin-bottom: 10vw;
+}
+
+.neglefarve{
+  width: 30vw;
+}
+
+.neglefarve1{
+  width: 20vw;
+}
+
+#handbogmobilcenter{
+  text-align: center;
+  margin-top: 5vw;
 }
 }
 
