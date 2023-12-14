@@ -710,6 +710,14 @@ header{
   margin-left: 10%;
   text-align: center;
 }
+#priserBTN{
+  width: 50%;
+  height: 6vh;
+  margin-top: 5vh;
+  opacity: 80%;
+  font-size: 1.4vw;
+  font-weight: lighter;
+}
 /*------------booking.------------*/
 
 #bookingdiv{
@@ -1091,7 +1099,7 @@ input{
   }
   .fempåstribetxt{
     width: 90%;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 5vh;
   }
   .fempåstribetxt h1{
@@ -1103,6 +1111,23 @@ input{
   .fempåstribetxt p{
     font-size: 3vw;
     padding-right: 20%;
+  }
+  .hjælpedivmobil{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 7vh;
+  }
+  .priserIMG{
+    width: 80%;
+  }
+  .columnrevers{
+    flex-direction: column-reverse;
+    margin-bottom: 12vh;
+  }
+  .fempåstribetxt p{
+    width: 60%;
+    margin-left: 20%;
   }
   /*----------booking-------*/
 
