@@ -480,6 +480,10 @@ header{
   font-size: 7vw;
 }
 
+#handbogh1-3{
+  font-size: 8vw;
+}
+
 #handbogh2{
   font-size: 5vw;
   margin-left: 5vw;
@@ -520,6 +524,11 @@ header{
 #billedestr3{
   width:90%;
   margin-left: 3vw;
+}
+
+#billedestr4{
+  width: 90%;
+  margin:auto;
 }
 
 #aftagning{
@@ -621,6 +630,13 @@ header{
   #handbogh1-2{
     font-size: 14vw;
   }
+
+  #handbogh1-3{
+    font-size: 14vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    text-align: center;
+  }
   
   #handbogh2{
     font-size: 13vw;
@@ -658,6 +674,11 @@ header{
 
   #billedestr3{
     margin-bottom: 10vw;
+  }
+
+  #billedestr4{
+    width: 90%;
+    margin:auto;
   }
 
   #negleformerbaggrund{
@@ -890,7 +911,7 @@ input{
     }
 
     p {
-      font-size:3.4vw;
+      font-size:3.8vw;
     }
 
     li {
@@ -1525,11 +1546,10 @@ footer a{
 .fullsize {
   display: block;
   position: absolute;
-
   z-index: 999;
   cursor: zoom-out;
-  width: 60%;
-  height: 60%;
+  width: 40vw;
+  height: 40vw;
 }
 
 .galleriMobil {
