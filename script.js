@@ -66,7 +66,7 @@ function gemBooking() {
    .then(response => response.json())
    .then(response => console.log(JSON.stringify(response)))
    
-    
+    window.location.href = 'kvittering.html';
 }
 
 
