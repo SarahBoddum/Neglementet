@@ -631,6 +631,37 @@ header{
   text-align: right;
 }
 
+.color-box{
+width: 90%;
+height: auto;
+margin-top: 3vw;
+background-color: #F5F8FD;
+display: flex;
+flex-wrap: wrap;
+padding: 6vw 4vw 4vw 6vw;
+}
+
+.color-box.hidden {
+display: none;
+}
+
+.farveknap{
+  background-color: #fcfbfa;
+  border: none;
+  margin-left: 1vw;
+}
+
+.neglefarve{
+  width: 7vw;
+  margin-left: -4vw;
+  margin-right: -4vw;
+}
+
+.neglefarve1{
+  width: 6.8vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
 /*------håndbogen mobil---------*/
 @media only screen and (max-width: 992px){
   #handbogbillede{
