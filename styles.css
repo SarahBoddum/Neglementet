@@ -77,6 +77,11 @@ a{
   text-decoration: none;
   width: fit-content;
 }
+.button:hover{
+  background-color: #faf1f6;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+}
 
 li{
   font-family: 'Lato', sans-serif;
