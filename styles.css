@@ -265,6 +265,7 @@ header{
   z-index: 2;
 }
 .tiktokvideo{
+  margin-top:3vh;
   width: 20%;
   height: 50vh;
   object-fit: cover;
