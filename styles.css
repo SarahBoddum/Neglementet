@@ -361,6 +361,7 @@ header{
 
 /*------------om neglementet.------------*/
 #omliva{
+  margin-top:22vh;
   width: 100%;
   display: flex;
 }
@@ -1001,7 +1002,7 @@ input{
     }
 
     p {
-      font-size:3.8vw;
+      font-size:3.4vw;
     }
 
     li {
@@ -1373,6 +1374,7 @@ input{
    #omliva{
    width:100%;
    display:flex;
+   margin-top:4vh;
    margin-left:0%;
   }
   
