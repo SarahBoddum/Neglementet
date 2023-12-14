@@ -87,3 +87,32 @@ var currentScrollPos = window.pageYOffset;
 function change (element) {
   element.classList.toggle("fullsize")
 }
+
+/* Hover over tiktok videoer*/
+
+
+
+/*Den den ene jeg prøvede*/
+
+
+
+/*document.querySelector(".tiktokvideo").addEventListener("mouseover",function(){
+  this.play()
+})
+
+document.querySelector(".tiktokvideo").addEventListener("mouseleave",function(){
+  this.play()
+}) */
+
+
+/*den anden jeg prøvede*/
+
+
+/*let video = document.querySelectorAll("tiktokvideo");
+
+for(var i =0;i< video.length;i++)
+{
+  video[i].addEventListener("mouseover", function(){
+    this.play();
+  })
+}*/
