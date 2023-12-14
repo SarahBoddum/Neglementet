@@ -96,7 +96,22 @@ var currentScrollPos = window.pageYOffset;
 
 /*------galleri------*/
 
+<<<<<<< Updated upstream
 function change (element) {
   element.classList.toggle("fullsize")
 }
 
+=======
+function change(element) {
+  var isFullsize = element.classList.contains('fullsize');
+
+  var allImages = document.querySelectorAll('.galImg');
+  allImages.forEach(function (img) {
+    img.classList.remove('fullsize');
+  });
+
+  if (!isFullsize) {
+    element.classList.add('fullsize');
+  }
+}
+>>>>>>> Stashed changes
