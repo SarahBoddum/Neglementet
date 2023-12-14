@@ -70,6 +70,7 @@ function gemBooking() {
 }
 
 //play video on mouse over
+/*video1*/
 function playVideo() {
     var video = document.getElementById("tiktok1");
     video.play();
@@ -78,8 +79,47 @@ function playVideo() {
 function pauseVideo() {
     var video = document.getElementById("tiktok1");
     video.pause();
-    video.currentTime = 0;
+    //video.currentTime = 0;
 }
+
+/*video2*/
+
+function playVideoto() {
+  var videoto = document.getElementById("tiktok2");
+  videoto.play();
+}
+
+function pauseVideoto() {
+  var videoto = document.getElementById("tiktok2");
+  videoto.pause();
+}
+
+/*video3*/
+
+function playVideotre() {
+  var videotre = document.getElementById("tiktok3");
+  videotre.play();
+}
+
+function pauseVideotre() {
+  var videotre = document.getElementById("tiktok3");
+  videotre.pause();
+}
+
+/*video4*/
+
+function playVideofire() {
+  var videofire = document.getElementById("tiktok4");
+  videofire.play();
+}
+
+function pauseVideofire() {
+  var videofire = document.getElementById("tiktok4");
+  videofire.pause();
+}
+
+
+
 
 
 /* duttelut til at få burgeren til at forsvinde og dukke op W3 school - virker ikke heeeelt
