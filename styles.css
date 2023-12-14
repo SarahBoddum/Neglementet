@@ -474,7 +474,10 @@ header{
 #handbogh1-1{
   font-size: 7vw;
   margin-left: 15vw;
-  
+}
+
+#handbogh1-2{
+  font-size: 7vw;
 }
 
 #handbogh2{
@@ -497,8 +500,10 @@ header{
   margin-bottom: -8vw;
 }
 
-.handbogencenter{
-  text-align:center;
+#handbogh2-3{
+  font-size: 5vw;
+  margin-top: -4vw;
+  margin-right: 3vw;
 }
 
 #billedestr1{
@@ -512,9 +517,26 @@ header{
   margin-top: -3vw;
 }
 
+#billedestr3{
+  width:90%;
+  margin-left: 3vw;
+}
+
 #aftagning{
   padding-right: 3vw;
+}
 
+#negleformerbaggrund{
+  width: 100%;
+  height:50vw;
+  background-image: url(images/negleformer.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top:-3vw;
+}
+
+.handbogcenter{
+  text-align: center;
 }
 
 .fit{
@@ -558,6 +580,14 @@ header{
   height: auto;
   padding-right: 1vw;
   margin:auto;
+}
+
+.storkolonnehøjre{
+  width: 60%;
+  height: auto;
+  padding-right: 1vw;
+  margin:auto;
+  text-align: right;
 }
 
 /*------håndbogen mobil---------*/
