@@ -1464,12 +1464,13 @@ footer a{
 }
 
 .fullsize {
+  display: block;
+  position: absolute;
+
   z-index: 999;
   cursor: zoom-out;
-  display: block;
-  width: 650px;
-  height: 650px;
-  position: fixed;
+  width: 60%;
+  height: 60%;
 }
 
 .galleriMobil {
