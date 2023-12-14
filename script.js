@@ -72,12 +72,12 @@ function gemBooking() {
 //play video on mouse over
 /*video1*/
 function playVideo() {
-    var video = document.getElementById("tiktok1");
+    let video = document.getElementById("tiktok1");
     video.play();
 }
 
 function pauseVideo() {
-    var video = document.getElementById("tiktok1");
+    let video = document.getElementById("tiktok1");
     video.pause();
     //video.currentTime = 0;
 }
