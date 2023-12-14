@@ -70,6 +70,7 @@ function gemBooking() {
 }
 
 //play video on mouse over
+/*video1*/
 function playVideo() {
     let video = document.getElementById("tiktok1");
     video.play();
@@ -81,17 +82,45 @@ function pauseVideo() {
     //video.currentTime = 0;
 }
 
-//tiktok 2
-function playtoVideo() {
-    let videoTo = document.getElementById("tiktok2");
-    videoTo.play();
+/*video2*/
+
+function playVideoto() {
+  var videoto = document.getElementById("tiktok2");
+  videoto.play();
 }
 
-function pausetoVideo() {
-    let videoTo = document.getElementById("tiktok2");
-    videoTo.pause();
-    //video.currentTime = 0;
+function pauseVideoto() {
+  var videoto = document.getElementById("tiktok2");
+  videoto.pause();
 }
+
+/*video3*/
+
+function playVideotre() {
+  var videotre = document.getElementById("tiktok3");
+  videotre.play();
+}
+
+function pauseVideotre() {
+  var videotre = document.getElementById("tiktok3");
+  videotre.pause();
+}
+
+/*video4*/
+
+function playVideofire() {
+  var videofire = document.getElementById("tiktok4");
+  videofire.play();
+}
+
+function pauseVideofire() {
+  var videofire = document.getElementById("tiktok4");
+  videofire.pause();
+}
+
+
+
+
 
 /* duttelut til at få burgeren til at forsvinde og dukke op W3 school - virker ikke heeeelt
 var prevScrollpos = window.pageYOffset;
