@@ -53,7 +53,7 @@ function gemBooking() {
     let behandling = document.getElementById("behandling").value;
     let aftagning = document.getElementById("aftagning").value;
     let tid = document.getElementById("tid").value;
-    let body = 'Hej <b>' + navn + '</b><p>du har bestilt tid den ' + tid + '</p> til fælgende behandling ' + behandling + ' ';
+    let body = 'Hej <b>' + navn + '</b><p>du har bestilt tid den ' + tid + '</p> til følgende behandling ' + behandling + aftagning +'. Jeg glædemig til at se dig. ';
     console.log('kaugdk');
     var fetchUrl = 'https://jimppbookingapi.azurewebsites.net/api/NailBooking/SendBookingNotification?email=' + email + '&navn=' + navn + '&tid=' + tid + '&body=' + body;
     fetch(fetchUrl, {

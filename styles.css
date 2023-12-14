@@ -98,7 +98,7 @@ header{
     justify-content: center;
 }
 
-#menu ul{
+#tidligereUL{
     display: flex;
     justify-content: space-between;
     gap: 10%;
@@ -151,6 +151,31 @@ header{
     font-size: 8px;
     margin-top: 10px;
 }
+.dropdown{
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content{
+    display:none;
+    color: black;
+    position: absolute;
+    z-index: 1;
+    min-width: 240px;
+    background-color: white;
+    text-align: left;
+    font-size: 15px;
+    padding: 10px;
+}
+.dropdown-content a:hover{
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+.dropdown:hover .dropdown-content{
+    display: block;   
+}
+
 /*---------index---------------*/
 #forsidediv{
   width: 100%;
@@ -1015,7 +1040,7 @@ input{
     background-color: #fce4f1;
     opacity: 80%;
   }
-  #menu ul {
+  #tidligereUL {
     padding: 0;
     display: flex;
     flex-direction: column;
