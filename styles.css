@@ -524,7 +524,19 @@ header{
 
 #aftagning{
   padding-right: 3vw;
+}
 
+#negleformerbaggrund{
+  width: 100%;
+  height:50vw;
+  background-image: url(images/negleformer.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top:-3vw;
+}
+
+.handbogcenter{
+  text-align: center;
 }
 
 .fit{
