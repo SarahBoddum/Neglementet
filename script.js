@@ -96,12 +96,10 @@ var currentScrollPos = window.pageYOffset;
 
 /*------galleri------*/
 
-<<<<<<< Updated upstream
 function change (element) {
   element.classList.toggle("fullsize")
 }
 
-=======
 function change(element) {
   var isFullsize = element.classList.contains('fullsize');
 
@@ -114,4 +112,4 @@ function change(element) {
     element.classList.add('fullsize');
   }
 }
->>>>>>> Stashed changes
+
