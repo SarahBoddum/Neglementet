@@ -53,7 +53,7 @@ function gemBooking() {
     let behandling = document.getElementById("behandling").value;
     let aftagning = document.getElementById("aftagning").value;
     let tid = document.getElementById("tid").value;
-    let body = 'Hej <b>' + navn + '</b><p>du har bestilt tid den ' + tid + '</p> til fælgende behandling ' + behandling + ' ';
+    let body = 'Hej <b>' + navn + '</b><p>du har bestilt tid den ' + tid + '</p> til følgende behandling ' + behandling + aftagning +'. Jeg glædemig til at se dig. ';
     console.log('kaugdk');
     var fetchUrl = 'https://jimppbookingapi.azurewebsites.net/api/NailBooking/SendBookingNotification?email=' + email + '&navn=' + navn + '&tid=' + tid + '&body=' + body;
     fetch(fetchUrl, {
@@ -81,6 +81,17 @@ function pauseVideo() {
     //video.currentTime = 0;
 }
 
+//tiktok 2
+function playtoVideo() {
+    let videoTo = document.getElementById("tiktok2");
+    videoTo.play();
+}
+
+function pausetoVideo() {
+    let videoTo = document.getElementById("tiktok2");
+    videoTo.pause();
+    //video.currentTime = 0;
+}
 
 /* duttelut til at få burgeren til at forsvinde og dukke op W3 school - virker ikke heeeelt
 var prevScrollpos = window.pageYOffset;
