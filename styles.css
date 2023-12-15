@@ -1060,7 +1060,7 @@ display: none;
   margin-left: 10%;
 }
 
-#centreretH1{
+.centreretH1{
   text-align: center;
   font-size: 6vw;
   margin-top: 6vh;
@@ -1146,7 +1146,7 @@ display: none;
     margin-bottom: 150px;
 }
 
-#bookpic{
+.bookpic{
     width: 40%;
     height: auto;
     object-fit: cover;
@@ -1631,7 +1631,7 @@ input{
     padding:5%;
   }
 
-  #livamobil{
+  .livamobil{
    width:100%;
    height:80vh;
    object-fit: cover;
@@ -1774,7 +1774,7 @@ footer a{
   margin-bottom: -12vw;
 }
 
-#someboks{
+.someboks{
   width: 80%;
   text-align: left;
   margin-top: 2vw;

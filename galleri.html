@@ -12,7 +12,7 @@
 
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css">
-    <title>Neglementet | Forside</title>
+    <title>Neglementet | Booking</title>
     <script src="https://kit.fontawesome.com/6978fc69bd.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -80,63 +80,52 @@
     
         </nav>
     </header>
+<main>
+    <div id="bookingdiv">
+        <div id="bookingtext">
+            <h1 id="bookh1">BOOK</h1>
+            <h2 id="bookh2">din tid her</h2>
+            <form>
+                <label for="navn">Navn</label>
+                <input id="navn" type="text" placeholder="Leah Jensen">
+                
+                <label for="email">Email</label>
+                <input id="email" type="text" placeholder="leahjensen@gmail.com">
+                
+                <label for="behandling">Behandling</label>
+                <input id="behandling" list="behandlingstype" placeholder="Vælg behandling">
+                    <datalist id="behandlingstype">
+                        <option value="Shellac®"></option>
+                        <option value="Shellac® - med nail art"></option>
+                        <option value="Forstærkning"></option>
+                        <option value="Forstærkning - enkelt farve"></option>
+                        <option value="Forstærkning - med nail art"></option>
+                        <option value="Forlængelse - enkelt farve"></option>
+                        <option value="Forlængelse - med nail art"></option>
+                        <option value="Opfyldning - enkelt farve"></option>
+                        <option value="Opfyldning - med nail art"></option>
+                        <option value="Manicure og negleolie"></option>
+                    </datalist>
+        
+                <label for="aftagning">Aftagning</label>
+                <input id="aftagning" list="ja-nej" placeholder="Vælg aftagning">
+                    <datalist id="ja-nej">
+                        <option value="med aftagning"></option>
+                        <option value="uden aftagning"></option>
+                    </datalist>
     
-    <h1 id="galleriOverskrift">GALLERI</h1>
+                <label for="tid">Tid</label>
+                <input  id="tid" class="rullebox" placeholder="Ledige tider">
+    
+                <div id="bookbtn">Bestil tid</div>
+            </form>
 
-    <main id="mainGalleri">
-
-        <div class="galleri">
-            <img class="galImg laptop" src="images/Lbasis4.jpg" alt="instapost" onclick="change(this)">
-            <img class="galImg laptop" src="images/Lgalleri2.jpg" alt="instapost" onclick="change(this)">
-            <img class="galImg laptop" src="images/Lgalleri3.jpg" alt="instapost" onclick="change(this)">
+ 
         </div>
-
-        <div class="galleri">
-            <img class="galImg laptop" src="images/Lgalleri4.jpg" alt="instapost" onclick="change(this)">
-            <img class="galImg laptop" src="images/Lbasis5.jpg" alt="instapost" onclick="change(this)">
-            <img class="galImg laptop" src="images/Lgalleri6.jpg" alt="instapost" onclick="change(this)">
-        </div>
-
-        <div class="galleri">
-            <img class="galImg laptop" src="images/Lbasis3.jpg" alt="instapost" onclick="change(this)">
-            <img class="galImg laptop" src="images/Lgalleri8.jpg" alt="instapost" onclick="change(this)">
-            <img class="galImg laptop" src="images/Lgalleri9.jpg" alt="instapost" onclick="change(this)">
-        </div>
-
-        <div class="galleri" id="slutGalleri">
-            <img class="galImg laptop" src="images/Lgalleri10.jpg" alt="instapost" onclick="change(this)">
-            <img class="galImg laptop" src="images/Lbasis2.jpg" alt="instapost" onclick="change(this)">
-            <img class="galImg laptop" src="images/Lgalleri12.jpg" alt="instapost" onclick="change(this)">
-        </div>
-
-        <!-------mobil------>
-        <div class="galleriMobil">
-            <img class="mobil" src="images/Mbasis4.jpg" alt="instapost">
-            <img class="mobil" src="images/Mgalleri2.jpg" alt="instapost">
-            <img class="mobil" src="images/Mgalleri3.jpg" alt="instapost">
-            <img class="mobil" src="images/Mgalleri4.jpg" alt="instapost">
-            <img class="mobil" src="images/Mbsis5.jpg" alt="instapost">
-            <img class="mobil" src="images/Mgalleri6.jpg" alt="instapost">
-            <img class="mobil" src="images/Mbasis3.jpg" alt="instapost">
-            <img class="mobil" src="images/Mgalleri8.jpg" alt="instapost">
-            <img class="mobil" src="images/Mgalleri9.jpg" alt="instapost">
-            <img class="mobil" src="images/Mgalleri10.jpg" alt="instapost">
-            <img class="mobil" src="images/Mbasis2.jpg" alt="instapost">
-            <img class="mobil" src="images/Mgalleri12.jpg" alt="instapost">
-        </div>
-
-
-    <div id="blivinspireret">
-        <img class="laptop" id="inspopic" src="images/Linstasnip.jpg" alt="instagram inspirationsbillede">
-        <img class="mobil" id="inspopic" src="images/Minstasnip.jpg" alt="instagram inspirationsbillede">
-        <section id="instasection">
-            <h1 id="forskudth1">BLIV</h1>
-            <h1>INSPIRERET</h1>
-            <h2> pa instagram</h2>
-            <button>Se instagram</button>
-        </section>
+        <img class="laptop bookpic" src="images/Lbalonnegl.jpg" alt="guld negle">
+        <img class="mobil bookpic" src="images/Mbalonnegl.jpg" alt="guld negle">
+    
     </div>
-
 </main>
 <footer id="grapebaggrund">
     <div class="footerlayout">
@@ -160,12 +149,12 @@
         <div class="lillefooterbox">
             <p>
                 <b>Følg Neglementet</b></p>
-                <div id="someboks">
-                    <a href="">
-                        <img src="images/instaikon.png" class="someikon">
+                <div class="someboks">
+                    <a href="https://www.instagram.com/neglementet/" target="_blank">
+                        <img src="images/instaikon.png" class="someikon" alt="instalogo">
                     </a>
-                    <a href="">
-                        <img src="images/tiktokikon.png" class="someikon">
+                    <a href="#">
+                        <img src="images/tiktokikon.png" class="someikon" alt="tiktioklogo">
                     </a>
                 </div>
                 <p><br>
@@ -198,12 +187,12 @@
             <p>
                 <b>Følg os</b>
             </p>
-            <div id="someboks">
-                <a href="">
-                    <img src="images/instaikon.png" class="someikon">
+            <div class="someboks">
+                <a href="https://www.instagram.com/neglementet/" target="_blank">
+                    <img src="images/instaikon.png" class="someikon" alt="instalogo">
                 </a>
-                <a href="">
-                    <img src="images/tiktokikon.png" class="someikon">
+                <a href="#">
+                    <img src="images/tiktokikon.png" class="someikon" alt="tiktoklogo">
                 </a>
             </div>  
             <p><br>
@@ -221,4 +210,3 @@
     </div>
 </footer>
 </body>
-</html>
