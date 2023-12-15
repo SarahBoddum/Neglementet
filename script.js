@@ -118,6 +118,20 @@ function pauseVideofire() {
   videofire.pause();
 }
 
+//setTimeout for billedeflipflop
+ var rammeToDiv = document.getElementById('rammeTo');
+ rammeToDiv.style.display = 'none';
+
+    // Funktion til at ændre display-egenskaben efter 0.2 sekunder
+    function visDivEfterForsinkelse() {
+      rammeToDiv.style.display = 'block';
+    }
+
+    // Anvend setTimeout til at kalde funktionen efter 0.2 sekunder
+    window.onload = function() {
+      setTimeout(visDivEfterForsinkelse, 200);
+    };
+
 
 
 
