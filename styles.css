@@ -1716,8 +1716,8 @@ input{
   padding-left: 4.7%;
 }
 
-#underpunkter{
-  padding-left: 6%;
+.underpunkter{
+  margin-left: 6%;
 }
 
 }
