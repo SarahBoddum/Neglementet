@@ -224,6 +224,213 @@ header{
     transition: 0.3s ease-in-out;
     text-decoration: none;
 }
+/*billedeflipflop*/
+#flipflopogtext{
+  width: 80%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10vh;
+  margin-bottom: 50vh;
+}
+#flipflopramme{
+  width: 70%;
+  height: auto;
+  
+}
+#fliptext{
+  width: 30%;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+/*rammeEt*/
+#rammeEt{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: fit-content;
+  margin: 0 auto;
+}
+#rammeTo{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: fit-content;
+  margin: 0 auto;
+}
+#rammeTre{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: fit-content;
+  margin: 0 auto;
+}
+#rammeFire{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: fit-content;
+  margin: 0 auto;
+}
+.Etpic{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 80vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-animation: fade 20s infinite;
+  animation: fade 20s infinite;
+}
+.Topic{
+  position: absolute;
+  top: 0;
+  left: 25%;
+  width: 25%;
+  height: 80vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-animation: fade 20s infinite;
+  animation: fade 20s infinite;
+}
+.Trepic{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 25%;
+  height: 80vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-animation: fade 20s infinite;
+  animation: fade 20s infinite;
+}
+
+.Firepic{
+  position: absolute;
+  top: 0;
+  left: 75%;
+  width: 25%;
+  height: 80vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-animation: fade 20s infinite;
+  animation: fade 20s infinite;
+}
+#Etpic-1{
+  animation-delay: 0s;
+  background-image: url(images/Lflip1-1.jpg);
+}
+#Etpic-2{
+  animation-delay: 5s;
+  background-image: url(images/Lflip2-1.jpg);
+}
+#Etpic-3{
+  animation-delay: 10s;
+  background-image: url(images/Lflip3-1.jpg);
+}
+#Etpic-4{
+  animation-delay: 15s;
+  background-image: ur(images/L);
+}
+
+
+#Topic-1{
+  animation-delay: 0s;
+  background-image: url(images/Lflip1-2.jpg);
+}
+#Topic-2{
+  animation-delay: 5s;
+  background-image: url(images/Lflip2-2.jpg);
+}
+#Topic-3{
+  animation-delay: 10s;
+  background-image: url(images/Lflip3-2.jpg);
+}
+#Topic-4{
+  animation-delay: 15s;
+  background-image: url(images/Lflip4-2.jpg);
+}
+
+#Trepic-1{
+  animation-delay: 0s;
+  background-image: url(images/Lflip1-3.jpg);
+}
+#Trepic-2{
+  animation-delay: 5s;
+  background-image: url(images/Lflip2-3.jpg);
+}
+#Trepic-3{
+  animation-delay: 10s;
+  background-image: url(images/Lflip3-3.jpg);
+}
+#Trepic-4{
+  animation-delay: 15s;
+  background-image: url(images/Lflip4-3.jpg);
+}
+
+#Firepic-1{
+  animation-delay: 0s;
+  background-image: url(images/Lflip1-4.jpg);
+}
+#Firepic-2{
+  animation-delay: 5s;
+  background-image: url(images/Lflip2-4.jpg);
+}
+#Firepic-3{
+  animation-delay: 10s;
+  background-image: url(images/Lflip3-4.jpg);
+}
+#Firepic-4{
+  animation-delay: 15s;
+  background-image: url(images/Lflip4-4.jpg);
+}
+
+@-webkit-keyframes fade{
+  0%{
+    opacity: 1;
+  }
+  20%{
+    opacity: 1;
+  }
+  25%{
+    opacity: 0;
+  }
+  95%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes fade{
+  0%{
+    opacity: 1;
+  }
+  20%{
+    opacity: 1;
+  }
+  25%{
+    opacity: 0;
+  }
+  95%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+
 #studierabat{
   width: 100%;
   height: auto;
