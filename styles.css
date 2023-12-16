@@ -262,13 +262,16 @@ header{
   width: 100%;
   height: fit-content;
   margin: 0 auto;
+  
 }
+
 #rammeTre{
   position: relative;
   display: block;
   width: 100%;
   height: fit-content;
   margin: 0 auto;
+ 
 }
 #rammeFire{
   position: relative;
@@ -276,6 +279,7 @@ header{
   width: 100%;
   height: fit-content;
   margin: 0 auto;
+  
 }
 .Etpic{
   position: absolute;
@@ -432,6 +436,7 @@ header{
 
 
 
+
 #studierabat{
   width: 100%;
   height: auto;
@@ -489,11 +494,11 @@ header{
   height: 50vh;
   object-fit: cover;
   z-index: 1;
-  filter:grayscale(30%)
+  filter:grayscale(30%);
 }
 
 .tiktokvideo:hover{
-  filter:grayscale(0%)
+  filter:grayscale(0%);
 }
 
 #blivinspireret{
@@ -517,16 +522,16 @@ header{
 }
 #instasection h2{
   margin-top: -8.5vh;
+  margin-left: 7vw;
 }
-#instasection button{
-  width: 50%;
-  height: 7vh;
-  font-size: 1.5vw;
-  font-weight: lighter;
+#inspobtn{
+  width: 20%;
+  height: 4vh;
   margin: auto;
+
 }
 #forskudth1{
-  margin-left: 25%;
+  margin-left: 30%;
   margin-bottom: -2vh;
 }
 
@@ -685,10 +690,15 @@ header{
 
 #ombetingelser ul{
   padding-left:1.7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1vh;
 }
-
 #underpunkter{
   padding-left:2%;
+  
+  gap: 0%;
 }
 
 
@@ -1191,7 +1201,37 @@ input{
   opacity: 80%;
 }
 
+/*--------kvittering-----------*/
 
+#kvitteringsdiv{
+  width: 50%;
+  height: fit-content;
+  margin: auto;
+  margin-top: 10%;
+}
+#kvitteringsdiv h2{
+  margin-left: 20%;
+
+}
+
+#kvitteringsdiv p{
+  margin-left: 15%;
+  line-height: 200%;
+}
+#livasignatur{
+  font-size: 3vw;
+  text-align: center;
+  margin-top: 0vh;
+}
+#kvitteringbtndiv{
+  margin-top: 2vh;
+  width: 40%;
+  margin-left: 30%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5vh;
+  margin-bottom: 30vh;
+}
 @media only screen and (max-width: 992px){
     .mobil{
         display: block;
@@ -1720,9 +1760,36 @@ input{
   margin-left: 6%;
 }
 
+/*----------kvittering -----*/
+#kvitteringsdiv{
+  width: 60%;
+  padding-top: 4vh;
 }
 
+#kvitteringsdiv h1{
+  font-size: 20vw;
+}
+#kvitteringsdiv h2{
+  margin-left: 30%;
+  font-size: 5vw;
+}
 
+#kvitteringsdiv p{
+  margin-left: 12%;
+  margin-top: 2vh;
+}
+#kvitteringbtndiv{
+  flex-direction: column;
+  margin-top: 4vh;
+  gap: 4vh;
+}
+.kvitteringsbtn{
+  width: 100%;
+  text-align: center;
+  padding-top: 1.5vh;
+  font-size: 4vw;
+}
+}
 /*-----------footer---------*/
 footer{
   background-color: #FCEFF5;

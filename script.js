@@ -119,20 +119,18 @@ function pauseVideofire() {
 }
 
 //setTimeout for billedeflipflop
- var rammeToDiv = document.getElementById('rammeTo');
- rammeToDiv.style.display = 'none';
+  
+  
 
-    // Funktion til at ændre display-egenskaben efter 0.2 sekunder
-    function visDivEfterForsinkelse() {
-      rammeToDiv.style.display = 'block';
-    }
-
-    // Anvend setTimeout til at kalde funktionen efter 0.2 sekunder
-    window.onload = function() {
-      setTimeout(visDivEfterForsinkelse, 200);
-    };
-
-
+document.addEventListener("DOMContentLoaded", function() {
+  // Vælg din div ved hjælp af dens ID eller klasse og tilføj klassen efter en forsinkelse
+  setTimeout(function() {
+    document.getElementById("rammeTo").classList.add("Topic");
+  }, 200); // 200 millisekunders forsinkelse (0,2 sekunder)
+});
+/*det her kom aldrig til at virke - men tror ideen er her. hele billedekarusellen kører
+i css, så hvis vi skulle opnå en forskydelse, så de skiftede billede
+fra venstre mod højre, burde setTimeout være løsningen */
 
 
 
