@@ -826,7 +826,9 @@ header{
 }
 
 #plejehånd{
-  width: 100%;
+  width: 130%;
+  margin-left: -6vw;
+  margin-top: -3vw;
 }
 
 #negleformerbaggrund{
@@ -1110,6 +1112,10 @@ display: none;
     margin:auto;
   }
 
+  #plejehånd{
+    margin-left: -8vw;
+  }
+
   #negleformerbaggrund{
     background-image: url(images/Mnegleformer.png);
     height: 140vw;
@@ -1182,7 +1188,7 @@ display: none;
 
 .plejeguidevenstre{
   width:100%;
-  text-align: left;
+  text-align: right;
   margin:auto;
 }
 
