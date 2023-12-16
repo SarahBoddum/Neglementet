@@ -765,6 +765,10 @@ header{
   line-height: 8vw;
 }
 
+#handbogh1-5{
+  font-size: 8vw;
+}
+
 #handbogh2{
   font-size: 5vw;
   margin-left: 5vw;
@@ -824,6 +828,13 @@ header{
 
 #aftagning{
   padding-right: 3vw;
+}
+
+#blaboks{
+  background-image: url(images/swatch.jpg);
+  background-size: 73vw 25vw;
+  background-position: right bottom;
+  background-repeat: no-repeat;
 }
 
 #plejehånd{
@@ -1065,9 +1076,16 @@ display: none;
     margin-bottom: 5vw;
     text-align: right;
   }
+
+  #handbogh1-5{
+    font-size: 14vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    text-align: center;
+  }
   
   #handbogh2{
-    font-size: 13vw;
+    font-size: 12vw;
     margin-left: 15vw;
     margin-top: -10vw;
   }
@@ -1086,7 +1104,7 @@ display: none;
   }
 
   #handbogh2-3{
-    font-size: 10vw;
+    font-size: 9vw;
     margin-left: 12vw;
   }
 
@@ -1104,13 +1122,18 @@ display: none;
     margin-bottom: 10vw;
   }
 
+  #billedestr2{
+    margin-left:-4vw;
+  }
+
   #billedestr3{
     margin-bottom: 10vw;
+    width: 100%;
   }
 
   #billedestr4{
-    width: 90%;
-    margin:auto;
+    width: 100%;
+    margin-left: 3vw;
   }
 
   #plejehånd{
@@ -1132,6 +1155,13 @@ display: none;
   margin:auto;
 }
 
+#blaboks{
+  background-size: 97% 55%;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 2vw;
+}
+
 .kolonner{
     width:100%;
     padding-right: 5%;
@@ -1140,12 +1170,10 @@ display: none;
     justify-content: center;
     margin-top: 10vw;
     margin-bottom: 10vw;
-    background-image: url(images/swatch.jpg);
-    background-size: 100%;
 }
 
 .reversekolonner{
-    width:95%;
+    width:100%;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -1153,22 +1181,22 @@ display: none;
 }
 
 .halvkolonne{
-    width:100%;
+    width:95%;
     margin:auto;
 }
 
 .lillekolonne{
-  width:100%;
+  width:95%;
   margin:auto;
 }
 
 .storkolonne{
-  width:100%;
+  width:95%;
   margin:auto;
 }
 
 .storkolonnehøjre{
-  width:100%;
+  width:95%;
   text-align: left;
   margin:auto;
   margin-bottom: 10vw;
@@ -1191,13 +1219,13 @@ display: none;
 }
 
 .plejeguidevenstre{
-  width:100%;
+  width:95%;
   text-align: right;
   margin:auto;
 }
 
 .plejeguidehøjre{
-  width:100%;
+  width:95%;
   text-align: left;
   margin:auto;
 }
@@ -2164,7 +2192,7 @@ footer a{
 
 .fullsize {
   display: block;
-  position: absolute;
+  position: fixed;
   z-index: 999;
   cursor: zoom-out;
   width: 40vw;
