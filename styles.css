@@ -1353,7 +1353,8 @@ display: none;
 }
 #priserBTN{
   width: 50%;
-  height: 6vh;
+  height: 4vh;
+  margin: auto;
   margin-top: 5vh;
   opacity: 80%;
   font-size: 1.4vw;
@@ -1827,6 +1828,10 @@ input{
   .fempåstribetxt p{
     width: 60%;
     margin-left: 20%;
+  }
+  #priserBTN{
+    font-size: 4vw;
+    
   }
   /*----------booking-------*/
 

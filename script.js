@@ -44,9 +44,11 @@ haandList.addEventListener('click', function() {
       }
     }
 
+if(bookBtn !== null){
+  bookBtn.addEventListener('click', gemBooking);
+}
 
-bookBtn.addEventListener('click', gemBooking);
-console.log('event lister tilføjet');
+  console.log('event lister tilføjet');
 function gemBooking() {
     let navn = document.getElementById("navn").value;
     let email = document.getElementById("email").value;
@@ -118,7 +120,7 @@ function pauseVideofire() {
   videofire.pause();
 }
 
-//setTimeout for billedeflipflop
+/*setTimeout for billedeflipflop
   
   
 
