@@ -764,6 +764,10 @@ header{
   line-height: 8vw;
 }
 
+#handbogh1-5{
+  font-size: 8vw;
+}
+
 #handbogh2{
   font-size: 5vw;
   margin-left: 5vw;
@@ -1063,6 +1067,13 @@ display: none;
     margin-left: 15vw;
     margin-bottom: 5vw;
     text-align: right;
+  }
+
+  #handbogh1-5{
+    font-size: 14vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    text-align: center;
   }
   
   #handbogh2{
