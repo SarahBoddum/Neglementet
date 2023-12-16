@@ -2187,7 +2187,7 @@ footer a{
 
 .fullsize {
   display: block;
-  position: absolute;
+  position: fixed;
   z-index: 999;
   cursor: zoom-out;
   width: 40vw;
