@@ -168,18 +168,19 @@ function change(element) {
 /*------- Farveguide ------*/
 
 function changeColor(color) {
-  // Hide all color boxes
+  // Skjuler alle color boxes
   hideColorBoxes();
 
-  // Show the selected color box
+  // Viser den valgte color box
   const colorBox = document.getElementById(`${color}Box`);
   colorBox.classList.remove('hidden');
 }
 
 function hideColorBoxes() {
-  // Hide all color boxes
+  // Skjuler alle color boxes
   const colorBoxes = document.querySelectorAll('.color-box');
   colorBoxes.forEach(box => {
     box.classList.add('hidden');
   });
 }
+
