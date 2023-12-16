@@ -715,6 +715,17 @@ header{
   padding-top: 15vw;
 }
 
+#plejebillede{
+  width: 100%;
+  height:auto;
+  background-image: url(images/Lannasløjfecutout.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 20vw;
+  margin-top: 10vw;
+  padding-top: 25vw;
+}
+
 #h2over{
   text-align: center;
   margin-bottom: -6vw;
@@ -745,6 +756,14 @@ header{
   font-size: 8vw;
 }
 
+#handbogh1-4{
+  font-size: 7.5vw;
+  text-align: right;
+  margin-bottom: -5vw;
+  margin-right: 25vw;
+  line-height: 8vw;
+}
+
 #handbogh2{
   font-size: 5vw;
   margin-left: 5vw;
@@ -771,6 +790,16 @@ header{
   margin-right: 3vw;
 }
 
+#handbogh2-5{
+  text-align: center;
+  font-size: 6vw;
+  margin-left: 18vw;
+}
+
+#underline{
+  text-decoration: underline;
+}
+
 #billedestr1{
   width: 70%;
   height: auto;
@@ -794,6 +823,10 @@ header{
 
 #aftagning{
   padding-right: 3vw;
+}
+
+#plejehånd{
+  width: 100%;
 }
 
 #negleformerbaggrund{
@@ -1021,6 +1054,14 @@ display: none;
     margin-bottom: 5vw;
     text-align: center;
   }
+
+  #handbogh1-4{
+    font-size: 10vw;
+    line-height: 5vw;
+    margin-left: 15vw;
+    margin-bottom: 5vw;
+    text-align: right;
+  }
   
   #handbogh2{
     font-size: 13vw;
@@ -1048,6 +1089,10 @@ display: none;
 
   #handbogh2-4{
     font-size: 12vw;
+  }
+
+  #handbogh2-5{
+    font-size: 10vw;
   }
 
   #billedestr1{
