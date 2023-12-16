@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0; 
+    top: 0;
 }
 @font-face {
     font-family: handwriting;
@@ -881,7 +882,7 @@ header{
 .lillekolonne{
   width: 36%;
   height:auto;
-  padding-right: 1vw;
+ 
 }
 
 .storkolonne{
@@ -986,7 +987,7 @@ display: none;
 #tipnr1{
   background-image: url(video/olieanimation.gif);
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position: center;
   background-size: 100%;
   height: 26vw;
 }
@@ -1003,7 +1004,7 @@ display: none;
   background-image: url(video/gummigif.gif);
   background-repeat: no-repeat;
   background-position: left center;
-  background-size: 100%;
+  background-size: 86%;
   height: 31vw;
 }
 
@@ -1143,12 +1144,15 @@ display: none;
 }
 
 .kolonner{
-    width:95%;
+    width:100%;
+    padding-right: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 10vw;
     margin-bottom: 10vw;
+    background-image: url(images/swatch.jpg);
+    background-size: 100%;
 }
 
 .reversekolonner{
