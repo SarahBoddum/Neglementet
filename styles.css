@@ -901,8 +901,7 @@ display: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  margin-top: 4vw;
-  margin-bottom: 4vw;
+  
 }
 
 .plejeguidereversekolonner{
@@ -910,8 +909,7 @@ display: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin-top: 4vw;
-  margin-bottom: 4vw;
+  
 }
 
 .plejeguidevenstre{
@@ -971,7 +969,7 @@ display: none;
 }
 
 #tipnr4{
-  background-image: url(video/dåsenegle.gif);
+  background-image: url(video/liftegif.gif);
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 100%;
@@ -1164,7 +1162,7 @@ display: none;
 }
 
 .h2plejeguide{
-  font-size: 12vw;
+  font-size: 10vw;
 }
 
 #tipnr1{
@@ -1175,6 +1173,21 @@ display: none;
 #tipnr2{
   background-position: center;
   height: 120vw;
+}
+
+#tipnr3{
+  background-position: center;
+  height: 70vw;
+}
+
+#tipnr4{
+  background-position: center;
+  height: 70vw;
+}
+
+#tipnr5{
+  background-position: center;
+  height: 100vw;
 }
 
 .neglefarve{
