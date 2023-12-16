@@ -1533,7 +1533,8 @@ input{
  /*---------priser---------------*/
  #priserdivtop{
     margin-top: 0vh;
-    background-size: cover; 
+    background-size: cover;
+    background-position: center; 
  }
 
   #overskriftPriser{
