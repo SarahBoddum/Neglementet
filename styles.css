@@ -195,9 +195,10 @@ header{
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 20vh;
+  margin-bottom: 12vh;
 }
 #forsideh1-1{
-  margin-top: 130px;
+  padding-top:25vh;
   text-align: center;
   font-size: 7vw;
 }
@@ -231,7 +232,7 @@ header{
   display: flex;
   justify-content: space-between;
 
-  margin-bottom: 50vh;
+  margin-bottom: 20vh;
 }
 #flipflopramme{
   width: 70%;
@@ -539,7 +540,7 @@ header{
   width: 90%;
   margin: auto;
   margin-top: 20vh;
-  margin-bottom: 40vh;
+  margin-bottom: 25vh;
 }
 #trepics{
   display: flex;
