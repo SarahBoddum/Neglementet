@@ -514,7 +514,6 @@ header{
   width: 47%;
   display: flex;
   flex-direction: column;
-  
 }
 #instasection h1{
   font-size: 7vw;
@@ -990,6 +989,7 @@ display: none;
 
 .h2plejeguide{
   font-size: 5vw;
+  margin-top: -8vh;
 }
 
 #tipnr1{
@@ -1644,14 +1644,16 @@ input{
   #forsidebtndiv{
     flex-direction: column;
     margin-top: 20vh;
-    width: 15%;
-    margin-left: 35%;
+    width: 50%;
+    margin-left: 25%;
     justify-self: unset;
   }
   .forsidebtn{
     margin-bottom: 3vh;
-    font-size: 3vw;
-    height: 6vh;
+    font-size: 4vw;
+    padding-top: 2vh;
+    height: 4vh;
+    width: 100%;
   }
 
   #flipflopogtext{
@@ -1664,12 +1666,19 @@ input{
 
   #flipflopramme{
     width: 100%;
-    margin-bottom: 60%;
+    margin-bottom: 75%;
+   
   }
   #fliptext{
     width: 90%;
   }
-
+  .flipbtn{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding-top: 2vh;
+    font-size: 4vw;
+  }
   #studierabat{
     margin-top: 7vh;
     background-size: 160%;
@@ -1726,7 +1735,7 @@ input{
     width: 80%;
     flex-direction: column-reverse;
   }
-  #inspopic{
+  .inspopic{
     width: 100%;
   }
   #instasection{
@@ -1743,11 +1752,13 @@ input{
     margin: auto;
     font-size: 10vw;
   }
-  #instasection button{
-    width: 80%;
-    margin-top: 2vh;
-    margin-bottom: 7vh;
-    font-size: 6vw;
+  #inspobtn{
+    width: 50%;
+    font-size: 3vw;
+    margin-bottom: 5vh;
+    text-align: center;
+    margin-top: 3vh;
+    padding-top: 2vh;
   }
 
 
@@ -1762,14 +1773,15 @@ input{
   .posrelcontainer{
     width: 90%;
     margin-left: 5%;
-    margin-bottom: 30%;
+    margin-bottom: 40%;
   }
   .laesmerepic{
     height: 70vh;
   }
   .posabsbtn{
     font-size: 4vw;
-    margin-top: 40vh;
+    margin-top: 60vh;
+    width: 60%;
   }
  #vertikalmobil{
   font-size: 15vw;
