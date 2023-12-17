@@ -12,77 +12,79 @@
 
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/Negel-mentetglitter.png">
     <title>Neglementet | Forside</title>
     <script src="https://kit.fontawesome.com/6978fc69bd.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<header>
-    <div id="rabatdut">10% STUDIERABAT PÅ ALLE BEHANDLINGER</div>
-    <nav id="navbar">
-        <div id="burger-menu">
-            <span></span>
-        </div>
-          
-        <div id="menu">
-
-            <div id="tidligereUL">
-                <div  class="menu-dropdown mobil" onclick = "openDropdown()"> 
-                    <a href="#">Om Neglementet</a>
-
-                    <div class="dropdown-list" id="omlist">
-                        <a href="neglementet.html">Om Neglementet</a>
-                        <a href="#">Om Shellac®</a>
-                        <a href="#">Om Gele</a>
-                    </div>
-                </div>
-
-                <div class="dropdown laptop">
-                    <a href="neglementet.html">Om Neglementet</a>
-                        <div class="dropdown-content">
-                            <span>
-                                <a href="neglementet.html">Om Neglementet</a>
-                            </span>
-                            <span>
-                                <a href="neglementet.html#shellac">Om Shellac®</a>
-                            </span>
-                            <span>
-                                <a href="neglementet.html#brisagel">Om Gele</a>
-                            </span>
-                            <span>
-                                <a href="neglementet.html#betingelser">Betingelser</a>
-                            </span>
-                        </div>
-                </div>
-               
-                <div  class="menu-dropdown mobil" onclick = "openHaandDropdown()"> 
-                    <a href="#">Håndbogen</a>
-
-                    <div class="dropdown-list" id="haandlist">
-                        <a href="håndbog.html">Inden behandling</a>
-                        <a href="#">Efter behandling</a>
-                    </div>
-                </div>
-
-                <div class="dropdown laptop">
-                    <a href="håndbog.html">Håndbog</a>
-                        <div class="dropdown-content">
-                            <span>
-                                <a href="håndbog.html">Inden behandling</a>
-                            </span>
-                            <span>
-                                <a href="håndbog.html">Efter behandling</a>
-                            </span>
-                        </div>
-                </div>
-                <a href="index.html"><img id="logo" src="images/NEGLEMENTETLOGO.png" alt="Logo Neglementet"></a>
-                <a href="priser.html">Priser</a>
-                <a href="galleri.html">Galleri</a>
-                <a id="booking" href="booking.html">Booking</a>
+    <header>
+        <div id="rabatdut">10% STUDIERABAT PÅ ALLE BEHANDLINGER</div>
+        <nav id="navbar">
+            <div id="burger-menu">
+                <span></span>
             </div>
-        </div>
-
-    </nav>
-</header>
+              
+            <div id="menu">
+    
+                <div id="tidligereUL">
+                    <div  class="menu-dropdown mobil" onclick = "openDropdown()"> 
+                        <a href="#">Om Neglementet</a>
+    
+                        <div class="dropdown-list" id="omlist">
+                            <a href="neglementet.html">Om Neglementet</a>
+                            <a href="neglementet.html#shellaclink">Om Shellac®</a>
+                            <a href="neglementet.html#brisagel">Om Gele</a>
+                            <a href="neglementet.html#betingelser">Betingelser</a>
+                        </div>
+                    </div>
+    
+                    <div class="dropdown laptop">
+                        <a href="neglementet.html">Om Neglementet</a>
+                            <div class="dropdown-content">
+                                <span>
+                                    <a href="neglementet.html">Om Neglementet</a>
+                                </span>
+                                <span>
+                                    <a href="neglementet.html#shellac">Om Shellac®</a>
+                                </span>
+                                <span>
+                                    <a href="neglementet.html#brisagel">Om Gele</a>
+                                </span>
+                                <span>
+                                    <a href="neglementet.html#betingelser">Betingelser</a>
+                                </span>
+                            </div>
+                    </div>
+                   
+                    <div  class="menu-dropdown mobil" onclick = "openHaandDropdown()"> 
+                        <a href="#">Håndbogen</a>
+    
+                        <div class="dropdown-list" id="haandlist">
+                            <a href="håndbog.html">Inden behandling</a>
+                            <a href="håndbog.html#plejebillede">Efter behandling</a>
+                        </div>
+                    </div>
+    
+                    <div class="dropdown laptop">
+                        <a href="håndbog.html">Håndbog</a>
+                            <div class="dropdown-content hand">
+                                <span>
+                                    <a href="håndbog.html">Inden behandling</a>
+                                </span>
+                                <span>
+                                    <a href="håndbog.html#plejebillede">Efter behandling</a>
+                                </span>
+                            </div>
+                    </div>
+                    <a href="index.html"><img id="logo" src="images/NEGLEMENTETLOGO.png" alt="Logo Neglementet"></a>
+                    <a href="priser.html">Priser</a>
+                    <a href="galleri.html">Galleri</a>
+                    <a id="booking" href="booking.html">Booking</a>
+                </div>
+            </div>
+    
+        </nav>
+    </header>
 <main>
     <img class="mobil" id="mobillogo" src="images/Negel-mentetglitter.png" alt="Logo Neglementet">
     <div id="forsidediv">
@@ -133,7 +135,7 @@
                 prioriterer jeg opmærksomhed for detaljen i en afslappende setting 
                 i min lille lejlighed. Forkæl dig selv med en lækker manicure og et friskt nyt look hos Neglementet i Århus C.
             </p>
-            <a href="galleri.html" class="button">Se galleri</a>
+            <a href="galleri.html" class="button flipbtn">Se galleri</a>
         </div>
 
     </div>
@@ -212,16 +214,17 @@
 <!--tiktok-->
 
 
-    <div id="blivinspireret">
-        <img class="laptop inspopic" src="images/Linstasnip.jpg" alt="instagram inspirationsbillede">
-        <img class="mobil inspopic" src="images/Minstasnip.jpg" alt="instagram inspirationsbillede">
-        <section id="instasection">
-            <h1 id="forskudth1">BLIV</h1>
-            <h1>INSPIRERET</h1>
-            <h2> pa instagram</h2>
-            <a class="button" id="inspobtn" href="https://www.instagram.com/neglementet/" target="_blank">Se instagram</a>
-        </section>
-    </div>
+<div id="blivinspireret">
+    <img class="laptop inspopic" src="images/Linstasnip.jpg" alt="instagram inspirationsbillede">
+    <img class="mobil inspopic" src="images/Minstasnip.jpg" alt="instagram inspirationsbillede">
+    <section id="instasection">
+        <h1 id="forskudth1">BLIV</h1>
+        <h1>INSPIRERET</h1>
+        <h2> pa instagram</h2>
+        <a class="button" id="inspobtn" href="https://www.instagram.com/neglementet/" target="_blank">Se instagram</a>
+    </section>
+    
+</div>
 
     <div class="laesmere">
         <h1 class="vertikal-h1" id="vertikalmobil">LÆS MERE</h1>

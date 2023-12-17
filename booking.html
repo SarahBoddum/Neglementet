@@ -12,6 +12,7 @@
 
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/Negel-mentetglitter.png">
     <title>Neglementet | Booking</title>
     <script src="https://kit.fontawesome.com/6978fc69bd.js" crossorigin="anonymous"></script>
 </head>
@@ -31,8 +32,9 @@
     
                         <div class="dropdown-list" id="omlist">
                             <a href="neglementet.html">Om Neglementet</a>
-                            <a href="#">Om Shellac®</a>
-                            <a href="#">Om Gele</a>
+                            <a href="neglementet.html#shellaclink">Om Shellac®</a>
+                            <a href="neglementet.html#brisagel">Om Gele</a>
+                            <a href="neglementet.html#betingelser">Betingelser</a>
                         </div>
                     </div>
     
@@ -59,22 +61,22 @@
     
                         <div class="dropdown-list" id="haandlist">
                             <a href="håndbog.html">Inden behandling</a>
-                            <a href="#">Efter behandling</a>
+                            <a href="håndbog.html#plejebillede">Efter behandling</a>
                         </div>
                     </div>
     
                     <div class="dropdown laptop">
                         <a href="håndbog.html">Håndbog</a>
-                            <div class="dropdown-content">
+                            <div class="dropdown-content hand">
                                 <span>
                                     <a href="håndbog.html">Inden behandling</a>
                                 </span>
                                 <span>
-                                    <a href="håndbog.html">Efter behandling</a>
+                                    <a href="håndbog.html#plejebillede">Efter behandling</a>
                                 </span>
                             </div>
                     </div>
-                    <a href="index.html"><img id="logo" src="images/Negel-mentetglitter.png" alt="Logo Neglementet"></a>
+                    <a href="index.html"><img id="logo" src="images/NEGLEMENTETLOGO.png" alt="Logo Neglementet"></a>
                     <a href="priser.html">Priser</a>
                     <a href="galleri.html">Galleri</a>
                     <a id="booking" href="booking.html">Booking</a>
@@ -94,6 +96,8 @@
                 
                 <label for="email">Email</label>
                 <input id="email" type="text" placeholder="leahjensen@gmail.com">
+                <!--Skriv venligst en valid email - ellers spamer I min mand med fejlmeldinger fra API'et
+                Also - nu kan vi jo formentligt holde øje med hvornår I vurderer vores opgave ;) Hej med jer-->
                 
                 <label for="behandling">Behandling</label>
                 <input id="behandling" list="behandlingstype" placeholder="Vælg behandling">
@@ -118,8 +122,17 @@
                     </datalist>
     
                 <label for="tid">Tid</label>
-                <input  id="tid" class="rullebox" placeholder="Ledige tider">
-    
+                <input  id="tid" class="rullebox" list="tider" placeholder="Ledige tider">
+                    <datalist id="tider">
+                        <option value="Mandag kl 16 og frem"></option>
+                        <option value="Tirsdag kl 20 og frem"></option>
+                        <option value="Onsdag kl 17 og frem"></option>
+                        <option value="Torsdag kl 13 og frem"></option>
+                        <option value="Lørdag kl 10 og frem"></option>
+                        <option value="Søndag kl 12 og frem"></option>
+                    </datalist>
+                    <!--Tiderne er skrevet således, så vi ikke skal tilføje ekstra JS, der tager hensyn til
+                    at alle behandlinger tager forskellig tid. Det kan vi kigge på til mundtlig...måske... don't get your hopes up Andreas-->
                 <div id="bookbtn">Bestil tid</div>
             </form>
 
