@@ -186,3 +186,75 @@ function hideColorBoxes() {
   });
 }
 
+let mobilTikTok1 = document.getElementById("mobiltiktok1");
+let mobilTikTok2 = document.getElementById("mobiltiktok2");
+let mobilTikTok3 = document.getElementById("mobiltiktok3");
+let mobilTikTok4 = document.getElementById("mobiltiktok4");
+
+let venstrepil = document.getElementById("venstrepil"); 
+let hoejrepil = document.getElementById("højrepil");
+
+
+
+// Array
+
+let carousel = [mobilTikTok1, mobilTikTok2, mobilTikTok3];
+
+mobilTikTok1.style.display = "block";
+mobilTikTok2.style.display = "none";
+mobilTikTok3.style.display = "none";
+
+
+
+// Knapper med billeder af pile
+hoejrepil.addEventListener("click", naesteFilm);
+venstrepil.addEventListener("click", forrigeFilm);
+
+
+function naesteFilm(){
+  carousel[0].style.display = "none"; // Skjul den viste
+  carousel.push(carousel[0]); // Put den første ind til sidst
+  carousel.shift(); // Fjern den første og flyt alle en ned
+  carousel[0].style.display = "block"; // Vis den der nu er først
+}
+
+function forrigeFilm(){
+  carousel[0].style.display = "none"; // Skjul den viste
+  carousel.push(carousel[0]); // Put den første ind til sidst
+  carousel.shift(); // Fjern den første og flyt alle en ned
+  carousel[0].style.display = "block"; // Vis den der nu er først
+}
+
+// Funktion til at skifte til næste billede
+function visnaesteFilm() {
+  if (mobilTikTok1.style.order === '1') {
+    mobilTikTok1.style.order = '2';
+      mobilTikTok2.style.order = '3';
+      mobilTikTok3.style.order = '1';
+  } else if (mobilTikTok2.style.order === '1') {
+    mobilTikTok1.style.order = '1';
+    mobilTikTok2.style.order = '2';
+      mobilTikTok3.style.order = '3';
+  } else {
+    mobilTikTok1.style.order = '3';
+    mobilTikTok2.style.order = '1';
+    mobilTikTok3.style.order = '2';
+  }
+}
+
+// Funktion til at skifte til forrige billede
+function visforrigeBillede() {
+  if (mobilTikTok1.style.order === '1') {
+    mobilTikTok1.style.order = '3';
+    mobilTikTok2.style.order = '1';
+    mobilTikTok3.style.order = '2';
+  } else if (mobilTikTok2.style.order === '2') {
+    mobilTikTok1.style.order = '2';
+    mobilTikTok2.style.order = '3';
+    mobilTikTok3.style.order = '1';
+  } else { (mobilTikTok3.style.order === '3') 
+      mobilTikTok1.style.order = '1';
+      mobilTikTok2.style.order = '2';
+      mobilTikTok3.style.order = '3';
+  }
+}
