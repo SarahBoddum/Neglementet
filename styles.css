@@ -163,15 +163,20 @@ header{
   }
   
 .dropdown-content{
+    margin-top: 40%;
     display:none;
     color: black;
     position: absolute;
+    height: fit-content;
     z-index: 1;
     min-width: 240px;
     background-color:  #fcfbfa;
     text-align: left;
     font-size: 15px;
     padding: 10px;
+}
+.hand{
+  margin-top: 30%;
 }
 .dropdown-content a:hover{
     text-decoration: none;
@@ -607,11 +612,12 @@ header{
 #shellac{
   width: 95%;
   margin-right: 5%;
+  padding-top: 10vh;
   display: flex;
   background-image: url(images/CNDshellac.png);
   background-size: 55%;
   background-position-x: 0%;
-  background-position-y: 6vh;
+  background-position-y: 16vh;
   background-repeat: no-repeat;
 }
 
@@ -639,6 +645,7 @@ header{
   background-position-x: 140%;
   background-position-y:5vh;
   background-repeat: no-repeat;
+
 }
 
 #ombrisagel{
@@ -665,6 +672,7 @@ header{
 #betingelser{
   width: 100%;
   display: flex;
+  padding-top: 15vh;
 }
 
 #ombetingelser{
